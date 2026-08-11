@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>임규호 — 쓰고, 고치고, 다시 씁니다</title>
+  <meta name="description" content="오픈소스 메인테이너이자 개발자 관계 일을 합니다. 만든 것 대신 쓴 것을 앞에 둡니다. 코드 리뷰·장애 회고·성능에 대해 쓴 글과 발표를 모았습니다." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="임규호 — 쓰고, 고치고, 다시 씁니다" />
+  <meta property="og:description" content="오픈소스 메인테이너이자 개발자 관계 일을 합니다. 만든 것 대신 쓴 것을 앞에 둡니다. 코드 리뷰·장애 회고·성능에 대해 쓴 글과 발표를 모았습니다." />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%237c3aed%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2240%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3E%EC%9E%84%3C%2Ftext%3E%3C%2Fsvg%3E" />
+  <link rel="stylesheet" href="./assets/site.css" />
+</head>
+<body>
+  <div class="wf-page" style="font-family:'Fraunces', 'Nanum Myeongjo', Batang, Georgia, serif;background:#f6f4ff;--wf-bg:#f6f4ff;--wf-text:#241145;color:#241145;--wf-surface:#ffffff;--wf-line:#dcd4f5;--wf-muted:#5b3f8f;--wf-accent:#7c3aed;--wf-max:1180px;padding:10px 0px;--fx-dot-color:#a78bfa;--fx-star-color:#5b3f8f;--fx-char-color:#241145;gap:0px">
+    <div class="wf" style="grid-template-columns:230px minmax(0, 1fr);grid-template-rows:auto 1fr auto;gap:0px">
+    <aside class="wf__region is-sticky" style="grid-column:1;grid-row:1 / 4;min-height:480px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(40px, 6vw);line-height:1.65;--wf-muted:#5b5567">
+      <div class="wf-aside" style="align-items:flex-start">
+        
+        <h2 class="wf-aside__name">임규호</h2>
+        <p class="wf-aside__role">오픈소스 메인테이너 · 개발자 관계</p>
+        <p class="wf-aside__bio">12년째 같은 일을 다른 이름으로 하고 있습니다.<br /><br />지금은 서울에서, 주로 글로.</p>
+        <nav class="wf-nav wf-nav--v" style="gap:10px">
+        <a href="#%EA%B3%A8%EB%9D%BC-%EB%91%94-%EA%B8%80-%EC%97%AC%EC%84%AF" class="wf-nav__item">골라 둔 글 여섯</a>
+        <a href="#%EB%B0%9C%ED%91%9C%EC%99%80-%EC%98%81%EC%83%81" class="wf-nav__item">발표와 영상</a>
+        <a href="#%EB%8B%A4%EB%A5%B8-%EA%B3%B3%EC%97%90%EC%84%9C%EB%8A%94" class="wf-nav__item">다른 곳에서는</a>
+      </nav>
+      </div>
+    </aside>
+    <section class="wf__region wf-tfx wf-tfx--fill wf-tfx-on--title" style="grid-column:2;grid-row:1;min-height:460px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);--tfx-step:40ms;--tfx-delay:0ms;--wf-fs:17px;line-height:1.8;--wf-muted:#5b5567">
+      <div class="wf-hero" style="align-items:flex-start;text-align:left">
+        
+        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(1.15 * 3.2em))">복잡한 것을<br />설명할 수 있는 크기로<br />줄이는 일을 합니다</h1>
+        <p class="wf-hero__sub" style="color:#4a4458">만든 것보다 쓴 것이 먼저 오는 페이지입니다. 제가 관여한 저장소와 회사 이름은 아래 글 속에서 필요할 때만 나옵니다.<br /><br />무엇을 만들 줄 아는지는 코드가 말해 줍니다. 무엇을 아는지는 결국 설명해 봐야 알게 되더군요. 그래서 배운 것을 그때그때 적습니다. 틀린 글도 지우지 않고 위에 정정만 붙여 둡니다.</p>
+        
+      </div>
+    </section>
+    <section class="wf__region" id="골라-둔-글-여섯" style="grid-column:2;grid-row:2;min-height:380px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);--wf-fs:16px;line-height:1.8;--wf-muted:#5b5567" data-fx="reveal" data-fx-preset="rise" data-fx-duration="720" data-fx-distance="20">
+      <div class="wf-gal">
+        <h2 class="wf-sec__title">골라 둔 글 여섯</h2>
+        <div class="wf-gal__grid" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
+          <a class="wf-card has-detail" href="#detail-c-1"><span class="wf-card__body">
+              <b class="wf-card__title">왜 우리 팀의 코드 리뷰는 느려졌나</b>
+              <span class="wf-card__stack">2026년 6월 · 12분</span>
+              <span class="wf-card__desc">리뷰가 늦어진 이유는 게으름이 아니라, 한 번에 봐야 할 것이 너무 많아진 데 있었습니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-2"><span class="wf-card__body">
+              <b class="wf-card__title">타입은 문서가 아닙니다</b>
+              <span class="wf-card__stack">2026년 4월 · 9분</span>
+              <span class="wf-card__desc">타입이 설명해 주는 것과 설명해 주지 않는 것을 갈라 두지 않으면, 주석을 지운 대가를 나중에 치릅니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-3"><span class="wf-card__body">
+              <b class="wf-card__title">장애 회고를 쓰는 법, 그리고 쓰지 않는 법</b>
+              <span class="wf-card__stack">2026년 2월 · 15분</span>
+              <span class="wf-card__desc">책임자를 찾는 회고는 다음 장애를 막지 못합니다. 대신 무엇이 그 선택을 합리적으로 보이게 했는지를 적습니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-4"><span class="wf-card__body">
+              <b class="wf-card__title">이슈에 답장하지 못한 날들에 대하여</b>
+              <span class="wf-card__stack">2025년 11월 · 8분</span>
+              <span class="wf-card__desc">메인테이너의 침묵은 대개 무관심이 아니라 부채입니다. 그 부채를 공개해 두는 편이 낫습니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-5"><span class="wf-card__body">
+              <b class="wf-card__title">성능 개선은 어디서 멈춰야 하는가</b>
+              <span class="wf-card__stack">2025년 8월 · 11분</span>
+              <span class="wf-card__desc">멈출 지점을 미리 정하지 않으면, 개선은 취미가 되고 팀은 그 비용을 조용히 지불합니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+          <a class="wf-card has-detail" href="#detail-c-6"><span class="wf-card__body">
+              <b class="wf-card__title">신입에게 설명하다 내가 배운 것</b>
+              <span class="wf-card__stack">2025년 5월 · 7분</span>
+              <span class="wf-card__desc">설명이 막히는 지점은 대체로 상대가 모르는 곳이 아니라, 내가 대충 알고 있던 곳이었습니다.</span>
+              <span class="wf-card__link">↗ 링크</span>
+            </span></a>
+        </div>
+        <div class="wf-detail" id="detail-c-1">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">왜 우리 팀의 코드 리뷰는 느려졌나</b>
+              <span class="wf-card__stack">2026년 6월 · 12분</span>
+              <p class="wf-detail__body">리뷰 대기 시간이 평균 32시간까지 늘었을 때, 우리는 먼저 사람을 의심했습니다. 알림을 늘리고, 당번을 정하고, 회고에서 서로를 채근했습니다. 아무것도 나아지지 않았습니다.<br /><br />숫자를 다시 봤을 때 눈에 들어온 것은 변경 줄 수였습니다. 400줄이 넘는 PR의 평균 대기 시간은 400줄 미만의 여섯 배였습니다. 리뷰어는 미루고 있던 것이 아니라, 40분짜리 작업을 여는 것을 미루고 있었습니다.<br /><br />그래서 규칙을 하나만 바꿨습니다. 400줄이 넘으면 나눠 올린다. 강제하지 않고 봇이 코멘트만 달게 했습니다. 두 달 뒤 대기 시간은 9시간이 됐습니다.<br /><br />덧붙임(2026.07) — 이 글을 읽은 분이 &quot;우리 팀은 줄 수보다 파일 수가 문제였다&quot;고 알려 주셨습니다. 맞는 지적입니다. 요지는 줄 수가 아니라, 리뷰를 미루게 만드는 비용이 무엇인지 각 팀이 직접 재 봐야 한다는 것입니다.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-2">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">타입은 문서가 아닙니다</b>
+              <span class="wf-card__stack">2026년 4월 · 9분</span>
+              <p class="wf-detail__body">타입을 붙이면 주석이 필요 없다는 말을 오래 믿었습니다. 실제로 인자의 모양과 반환값은 타입이 훨씬 정확하게 말해 줍니다. 주석은 낡지만 타입은 컴파일러가 지켜 주니까요.<br /><br />그런데 타입이 절대 말해 주지 않는 것이 있습니다. 왜 이 함수가 존재하는지, 왜 이 순서여야 하는지, 어떤 경우에 쓰면 안 되는지. `Promise&lt;void&gt;`는 이 함수가 실패하면 어떻게 되는지 한 글자도 알려 주지 않습니다.<br /><br />지금은 이렇게 나눕니다. 무엇인지는 타입이, 왜인지는 주석이. 그리고 왜를 못 적겠으면 대개 설계가 덜 된 것이었습니다.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-3">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">장애 회고를 쓰는 법, 그리고 쓰지 않는 법</b>
+              <span class="wf-card__stack">2026년 2월 · 15분</span>
+              <p class="wf-detail__body">가장 많이 본 회고의 마지막 줄은 &quot;확인 절차를 강화한다&quot;였습니다. 그 문장이 쓰인 뒤 같은 장애가 다시 난 경우를 여러 번 봤습니다.<br /><br />사람은 대체로 그 순간 합리적으로 보이는 선택을 합니다. 그러니 물어야 할 것은 &quot;왜 확인하지 않았나&quot;가 아니라 &quot;왜 확인하지 않는 편이 그때는 더 그럴듯했나&quot;입니다. 배포 창이 좁아서였는지, 알림이 너무 많아 무뎌져서였는지, 롤백이 무서웠는지.<br /><br />회고에서 이 질문을 하기 시작하자 조치 항목이 달라졌습니다. &quot;강화한다&quot; 대신 &quot;롤백을 3분 안에 끝나게 만든다&quot; 같은 것이 남았습니다.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-4">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">이슈에 답장하지 못한 날들에 대하여</b>
+              <span class="wf-card__stack">2025년 11월 · 8분</span>
+              <p class="wf-detail__body">한동안 이슈함을 열지 못했습니다. 열면 답해야 하고, 답하려면 코드를 다시 읽어야 하고, 그럴 시간이 없다는 사실을 확인하게 되니까요. 그렇게 쌓인 이슈가 200개가 넘었을 때 저장소를 접을 생각까지 했습니다.<br /><br />결국 한 것은 답장이 아니라 고지였습니다. README 맨 위에 지금 이 프로젝트에 쓸 수 있는 시간이 주당 두 시간이고, 그래서 어떤 종류의 이슈에 먼저 답하는지를 적었습니다.<br /><br />놀랍게도 이슈가 줄지는 않았지만, 화가 난 사람은 거의 사라졌습니다. 사람들이 견디지 못했던 것은 느린 답장이 아니라 예측할 수 없는 침묵이었습니다.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-5">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">성능 개선은 어디서 멈춰야 하는가</b>
+              <span class="wf-card__stack">2025년 8월 · 11분</span>
+              <p class="wf-detail__body">응답 시간을 800ms에서 200ms로 줄인 뒤, 저는 120ms를 향해 2주를 더 썼습니다. 아무도 요구하지 않았고, 아무도 체감하지 못했습니다.<br /><br />지금은 시작하기 전에 세 줄을 먼저 적습니다. 지금 얼마인가, 얼마가 되면 충분한가, 그 판단의 근거는 무엇인가. 세 번째 줄이 가장 어렵습니다. 대개 근거는 사용자 쪽에 있는데 우리는 대시보드만 보고 있기 때문입니다.<br /><br />충분함을 숫자로 적어 두면 개선은 끝날 수 있는 일이 됩니다. 끝낼 수 없는 일은 결국 다른 일을 잡아먹습니다.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+        <div class="wf-detail" id="detail-c-6">
+            <a class="wf-detail__scrim" href="#" aria-label="닫기"></a>
+            <div class="wf-detail__box">
+              <a class="wf-detail__close" href="#" aria-label="닫기">✕</a>
+              
+              <b class="wf-detail__title">신입에게 설명하다 내가 배운 것</b>
+              <span class="wf-card__stack">2025년 5월 · 7분</span>
+              <p class="wf-detail__body">입사 3주 차 동료에게 우리 인증 흐름을 설명하다 두 번 막혔습니다. 한 번은 토큰 갱신 시점에서, 한 번은 로그아웃이 실제로 무엇을 지우는지에서.<br /><br />그날 저녁 코드를 다시 읽고 알았습니다. 저는 그 두 곳을 &quot;아마 그럴 것&quot;이라고 믿고 3년을 써 왔습니다. 막힌 것은 설명이 아니라 이해였습니다.<br /><br />그 뒤로 새로 온 사람에게 설명하는 자리를 피하지 않습니다. 제가 어디를 대충 알고 있는지 알려 주는 가장 싼 방법이라서요.</p>
+              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="wf__region" id="발표와-영상" style="grid-column:2;grid-row:3;min-height:240px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);line-height:1.7;--wf-muted:#5b5567" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-distance="18">
+      <div class="wf-sec" style="align-items:flex-start">
+        <h2 class="wf-sec__title">발표와 영상</h2>
+        <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
+          <p class="wf-sec__body"></p>
+        </div>
+        <ol class="wf-time"><li class="wf-time__row"><b>2026.05</b><span>느린 코드 리뷰의 진짜 원인 — 국내 개발자 콘퍼런스 (45분)</span></li><li class="wf-time__row"><b>2025.10</b><span>메인테이너의 시간 — 오픈소스 밋업 라운드테이블</span></li><li class="wf-time__row"><b>2025.06</b><span>장애 회고를 다시 쓰기 — 사내 공개 세션 (녹화 공개)</span></li><li class="wf-time__row"><b>2024.11</b><span>타입으로 못 적는 것들 — 타입스크립트 사용자 모임</span></li></ol>
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:0px">
+      <section class="wf__region" id="다른-곳에서는" style="min-height:180px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);background-color:#f0ecfb;--wf-fs:16px;--wf-muted:#5b5567" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-distance="18">
+      <div class="wf-links wf-links--text" style="align-items:flex-start">
+        <h2 class="wf-sec__title">다른 곳에서는</h2>
+        <div class="wf-links__row">
+          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">전체 글 목록 (아카이브)<em class="wf-link__url">example.com</em></a>
+          <a class="wf-link" href="https://github.com/" target="_blank" rel="noreferrer noopener">GitHub<em class="wf-link__url">github.com</em></a>
+          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">격주 뉴스레터<em class="wf-link__url">example.com</em></a>
+          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">RSS<em class="wf-link__url">example.com</em></a>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:0px">
+      <div class="wf__region" id="contact" style="min-height:180px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(40px, 6vw);--wf-fs:14px;--wf-muted:#5b5567"><footer class="wf-bar wf-bar--foot" style="justify-content:space-between">
+        <span class="wf-foot__text">© 2026 임규호 · 글은 CC BY 4.0, 코드는 MIT입니다</span>
+        
+        
+        <a class="wf-foot__mail" href="mailto:gyuho@example.com">gyuho@example.com</a>
+      </footer></div>
+    </div>
+    <a class="wf-down" href="#%EA%B3%A8%EB%9D%BC-%EB%91%94-%EA%B8%80-%EC%97%AC%EC%84%AF" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+  </div>
+  <script type="module" src="./assets/init.js"></script>
+</body>
+</html>
