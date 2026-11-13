@@ -3,231 +3,322 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>임규호 — 쓰고, 고치고, 다시 씁니다</title>
-  <meta name="description" content="오픈소스 메인테이너이자 개발자 관계 일을 합니다. 만든 것 대신 쓴 것을 앞에 둡니다. 코드 리뷰·장애 회고·성능에 대해 쓴 글과 발표를 모았습니다." />
+  <title>배시우 | 3D 아티스트</title>
+  <meta name="description" content="제품 렌더링, 캐릭터, 공간 시각화를 만드는 3D 아티스트 배시우. 작업 사례와 단가, 웹용 GLB 파일 제작." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="임규호 — 쓰고, 고치고, 다시 씁니다" />
-  <meta property="og:description" content="오픈소스 메인테이너이자 개발자 관계 일을 합니다. 만든 것 대신 쓴 것을 앞에 둡니다. 코드 리뷰·장애 회고·성능에 대해 쓴 글과 발표를 모았습니다." />
-  <meta name="twitter:card" content="summary" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%237c3aed%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2240%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3E%EC%9E%84%3C%2Ftext%3E%3C%2Fsvg%3E" />
+  <meta property="og:title" content="배시우 | 3D 아티스트" />
+  <meta property="og:description" content="제품 렌더링, 캐릭터, 공간 시각화를 만드는 3D 아티스트 배시우. 작업 사례와 단가, 웹용 GLB 파일 제작." />
+  <meta property="og:image" content="https://portfoliomaker-samples.github.io/16-margin-notes/assets/images/imgmwfhua6qa.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%234f6bff%22%2F%3E%3Ctext%20x%3D%2232%22%20y%3D%2234%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%20font-family%3D%22system-ui%2Csans-serif%22%20font-size%3D%2240%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%3E%EB%B0%B0%3C%2Ftext%3E%3C%2Fsvg%3E" />
   <link rel="stylesheet" href="./assets/site.css" />
-  <style>html{scroll-behavior:smooth}.wf-pg{display:block}html,body{background:#f6f4ff}.wf-headbar{position:sticky;top:0;z-index:60;min-height:0!important;padding-top:0!important;padding-bottom:0!important}.wf-headbar .wf__region{position:static!important;align-self:stretch!important;width:100%}.wf-headbar--side{position:fixed;top:10px;bottom:10px;left:0px;width:230px;padding:0!important;overflow:auto}.wf-headbar--side .wf__region{height:100%}.wf-pg{scroll-margin-top:70px}</style>
+  <style>@view-transition { navigation: auto; }</style>
+  <style>html{scroll-behavior:smooth}.wf-pg{display:block}html,body{background:#12071f}.wf-headbar{position:sticky;top:0;z-index:60;min-height:0!important;padding-top:0!important;padding-bottom:0!important}.wf-headbar--still{position:static}.wf-footbar{min-height:0!important;padding-top:0!important}.wf-headbar .wf__region{position:static!important;align-self:stretch!important;width:100%}.wf-headbar--side{position:fixed;top:10px;bottom:10px;left:10px;width:240px;padding:0!important;overflow:auto}.wf-headbar--side .wf__region{height:100%}@media (max-width:760px){.wf-headbar--side{position:static;top:auto;bottom:auto;left:auto;width:auto;overflow:visible;margin:10px 10px 0}.wf-headbar--side .wf__region{height:auto}}.wf-pg{scroll-margin-top:70px}</style>
 </head>
 <body>
-  <div class="wf-page wf-headbar wf-headbar--side" style="font-family:'Fraunces', 'Nanum Myeongjo', Batang, Georgia, serif;background:#f6f4ff;--wf-bg:#f6f4ff;--wf-text:#241145;color:#241145;--wf-surface:#ffffff;--wf-line:#dcd4f5;--wf-muted:#5b3f8f;--wf-accent:#7c3aed;--wf-max:1180px;padding:10px 0px;--fx-dot-color:#a78bfa;--fx-star-color:#5b3f8f;--fx-char-color:#241145;gap:0px"><aside class="wf__region is-sticky" style="grid-column:1;grid-row:1 / 4;min-height:480px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(40px, 6vw);line-height:1.65;--wf-muted:#5b5567">
-      <div class="wf-aside" style="align-items:flex-start">
-        
-        <h2 class="wf-aside__name">임규호</h2>
-        <p class="wf-aside__role">오픈소스 메인테이너 · 개발자 관계</p>
-        <p class="wf-aside__bio">12년째 같은 일을 다른 이름으로 하고 있습니다.<br /><br />지금은 서울에서, 주로 글로.</p>
-        <nav class="wf-nav wf-nav--v" style="gap:10px">
-        <a href="#%EA%B3%A8%EB%9D%BC-%EB%91%94-%EA%B8%80-%EC%97%AC%EC%84%AF" class="wf-nav__item">골라 둔 글 여섯</a>
-        <a href="#%EB%B0%9C%ED%91%9C%EC%99%80-%EC%98%81%EC%83%81" class="wf-nav__item">발표와 영상</a>
-        <a href="#%EB%8B%A4%EB%A5%B8-%EA%B3%B3%EC%97%90%EC%84%9C%EB%8A%94" class="wf-nav__item">다른 곳에서는</a>
+  <div class="wf-page wf-headbar" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px"><nav class="wf__region is-sticky" data-enter="up" style="grid-column:1;grid-row:1;min-height:0px;border-radius:0px;border-width:0px;padding:min(12px, 6vw)">
+      <div class="wf-bar" style="justify-content:end">
+        <nav class="wf-nav" style="gap:26px">
+        <a href="#pg-0" class="wf-nav__item is-current">홈</a>
+        <a href="#pg-1" class="wf-nav__item">작업</a>
+        <a href="#pg-2" class="wf-nav__item">단가</a>
+        <a href="#pg-3" class="wf-nav__item">문의</a>
       </nav>
+        
       </div>
-    </aside></div>
+    </nav></div>
   <section class="wf-pg" id="pg-0">
-  <div class="wf-page" style="font-family:'Fraunces', 'Nanum Myeongjo', Batang, Georgia, serif;background:#f6f4ff;--wf-bg:#f6f4ff;--wf-text:#241145;color:#241145;--wf-surface:#ffffff;--wf-line:#dcd4f5;--wf-muted:#5b3f8f;--wf-accent:#7c3aed;--wf-max:1180px;padding:10px 0px;--fx-dot-color:#a78bfa;--fx-star-color:#5b3f8f;--fx-char-color:#241145;gap:0px">
-    <div class="wf" style="grid-template-columns:230px minmax(0, 1fr);grid-template-rows:auto 1fr auto;gap:0px">
+  <div class="wf-page is-rowmax wf-enter wf-enter--zoom wf-ix" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px">
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:auto;gap:10px">
     
-    <section class="wf__region wf-tfx wf-tfx--fill wf-tfx-on--title" style="grid-column:2;grid-row:1;min-height:460px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);--tfx-step:40ms;--tfx-delay:0ms;--wf-fs:17px;line-height:1.8;--wf-muted:#5b5567">
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(24, minmax(0, 1fr));gap:10px">
+      <div class="wf__region" data-enter="left" style="grid-column:1 / span 6;min-height:0px;border-radius:0px;border-width:0px;padding:min(0px, 6vw)">
+      <div class="wf-3d fx-model" style="height:min(460px, 62vh)" data-fx-src="./assets/files/projector.glb" data-fx-environment-image="./assets/files/08-millisecond-works.hdr" data-fx-alt="작업실에 둔 오래된 영사기 모델" data-fx-camera-controls="true" data-fx-auto-rotate="true" data-fx-disable-zoom="true" data-fx-disable-pan="true" data-fx-exposure="1.9" data-fx-shadow-intensity="0.5" data-fx-shadow-softness="1" data-fx-auto-rotate-delay="3000" data-fx-rotation-per-second="18deg" data-fx-autoplay="true" data-fx-animation-name="Idle" data-fx-interaction-prompt="none" data-fx-ar="false" data-fx-skybox="false" data-fx-follow="false" data-fx-follow-decay="80" data-fx-follow-yaw="28" data-fx-follow-pitch="10"></div>
+    </div>
+      <section class="wf__region wf-tfx wf-tfx--spread wf-tfx-on--title" data-enter="right" style="grid-column:7 / span 18;min-height:0px;border-radius:0px;border-width:0px;padding:min(48px, 6vw);--tfx-step:40ms;--tfx-delay:0ms">
       <div class="wf-hero" style="align-items:flex-start;text-align:left">
         
-        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(1.15 * 3.2em))">복잡한 것을<br />설명할 수 있는 크기로<br />줄이는 일을 합니다</h1>
-        <p class="wf-hero__sub" style="color:#4a4458">만든 것보다 쓴 것이 먼저 오는 페이지입니다. 제가 관여한 저장소와 회사 이름은 아래 글 속에서 필요할 때만 나옵니다.<br /><br />무엇을 만들 줄 아는지는 코드가 말해 줍니다. 무엇을 아는지는 결국 설명해 봐야 알게 되더군요. 그래서 배운 것을 그때그때 적습니다. 틀린 글도 지우지 않고 위에 정정만 붙여 둡니다.</p>
-        
-      </div>
-    </section>
-    <section class="wf__region" id="골라-둔-글-여섯" style="grid-column:2;grid-row:2;min-height:0px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);--wf-fs:16px;line-height:1.8;--wf-muted:#5b5567" data-fx="reveal" data-fx-preset="rise" data-fx-duration="720" data-fx-distance="20">
-      <div class="wf-gal">
-        <h2 class="wf-sec__title">골라 둔 글 여섯</h2>
-        <div class="wf-gal__grid" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
-          <a class="wf-card has-detail" href="#detail-c-1"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span>
-              <b class="wf-card__title">왜 우리 팀의 코드 리뷰는 느려졌나</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2026년 6월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">12분</span></span>
-              <span class="wf-card__desc">리뷰가 늦어진 이유는 게으름이 아니라, 한 번에 봐야 할 것이 너무 많아진 데 있었습니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-          <a class="wf-card has-detail" href="#detail-c-2"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span>
-              <b class="wf-card__title">타입은 문서가 아닙니다</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2026년 4월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">9분</span></span>
-              <span class="wf-card__desc">타입이 설명해 주는 것과 설명해 주지 않는 것을 갈라 두지 않으면, 주석을 지운 대가를 나중에 치릅니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-          <a class="wf-card has-detail" href="#detail-c-3"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span>
-              <b class="wf-card__title">장애 회고를 쓰는 법, 그리고 쓰지 않는 법</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2026년 2월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">15분</span></span>
-              <span class="wf-card__desc">책임자를 찾는 회고는 다음 장애를 막지 못합니다. 대신 무엇이 그 선택을 합리적으로 보이게 했는지를 적습니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-          <a class="wf-card has-detail" href="#detail-c-4"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span>
-              <b class="wf-card__title">이슈에 답장하지 못한 날들에 대하여</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2025년 11월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">8분</span></span>
-              <span class="wf-card__desc">메인테이너의 침묵은 대개 무관심이 아니라 부채입니다. 그 부채를 공개해 두는 편이 낫습니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-          <a class="wf-card has-detail" href="#detail-c-5"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#3b82f6;--st-fg:#ffffff">운영중</span>
-              <b class="wf-card__title">성능 개선은 어디서 멈춰야 하는가</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2025년 8월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">11분</span></span>
-              <span class="wf-card__desc">멈출 지점을 미리 정하지 않으면, 개선은 취미가 되고 팀은 그 비용을 조용히 지불합니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-          <a class="wf-card has-detail" href="#detail-c-6"><span class="wf-card__body">
-              <span class="wf-card__status" style="--st-bg:#10b981;--st-fg:#ffffff">완료</span>
-              <b class="wf-card__title">신입에게 설명하다 내가 배운 것</b>
-              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">2025년 5월</span><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">7분</span></span>
-              <span class="wf-card__desc">설명이 막히는 지점은 대체로 상대가 모르는 곳이 아니라, 내가 대충 알고 있던 곳이었습니다.</span>
-              <span class="wf-card__link">↗ 링크</span>
-            </span></a>
-        </div>
-        <div class="wf-detail" id="detail-c-1">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">왜 우리 팀의 코드 리뷰는 느려졌나</b>
-              <span class="wf-card__stack">2026년 6월 · 12분</span>
-              <p class="wf-detail__body">리뷰 대기 시간이 평균 32시간까지 늘었을 때, 우리는 먼저 사람을 의심했습니다. 알림을 늘리고, 당번을 정하고, 회고에서 서로를 채근했습니다. 아무것도 나아지지 않았습니다.<br /><br />숫자를 다시 봤을 때 눈에 들어온 것은 변경 줄 수였습니다. 400줄이 넘는 PR의 평균 대기 시간은 400줄 미만의 여섯 배였습니다. 리뷰어는 미루고 있던 것이 아니라, 40분짜리 작업을 여는 것을 미루고 있었습니다.<br /><br />그래서 규칙을 하나만 바꿨습니다. 400줄이 넘으면 나눠 올린다. 강제하지 않고 봇이 코멘트만 달게 했습니다. 두 달 뒤 대기 시간은 9시간이 됐습니다.<br /><br />덧붙임(2026.07) — 이 글을 읽은 분이 &quot;우리 팀은 줄 수보다 파일 수가 문제였다&quot;고 알려 주셨습니다. 맞는 지적입니다. 요지는 줄 수가 아니라, 리뷰를 미루게 만드는 비용이 무엇인지 각 팀이 직접 재 봐야 한다는 것입니다.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-        <div class="wf-detail" id="detail-c-2">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">타입은 문서가 아닙니다</b>
-              <span class="wf-card__stack">2026년 4월 · 9분</span>
-              <p class="wf-detail__body">타입을 붙이면 주석이 필요 없다는 말을 오래 믿었습니다. 실제로 인자의 모양과 반환값은 타입이 훨씬 정확하게 말해 줍니다. 주석은 낡지만 타입은 컴파일러가 지켜 주니까요.<br /><br />그런데 타입이 절대 말해 주지 않는 것이 있습니다. 왜 이 함수가 존재하는지, 왜 이 순서여야 하는지, 어떤 경우에 쓰면 안 되는지. `Promise&lt;void&gt;`는 이 함수가 실패하면 어떻게 되는지 한 글자도 알려 주지 않습니다.<br /><br />지금은 이렇게 나눕니다. 무엇인지는 타입이, 왜인지는 주석이. 그리고 왜를 못 적겠으면 대개 설계가 덜 된 것이었습니다.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-        <div class="wf-detail" id="detail-c-3">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">장애 회고를 쓰는 법, 그리고 쓰지 않는 법</b>
-              <span class="wf-card__stack">2026년 2월 · 15분</span>
-              <p class="wf-detail__body">가장 많이 본 회고의 마지막 줄은 &quot;확인 절차를 강화한다&quot;였습니다. 그 문장이 쓰인 뒤 같은 장애가 다시 난 경우를 여러 번 봤습니다.<br /><br />사람은 대체로 그 순간 합리적으로 보이는 선택을 합니다. 그러니 물어야 할 것은 &quot;왜 확인하지 않았나&quot;가 아니라 &quot;왜 확인하지 않는 편이 그때는 더 그럴듯했나&quot;입니다. 배포 창이 좁아서였는지, 알림이 너무 많아 무뎌져서였는지, 롤백이 무서웠는지.<br /><br />회고에서 이 질문을 하기 시작하자 조치 항목이 달라졌습니다. &quot;강화한다&quot; 대신 &quot;롤백을 3분 안에 끝나게 만든다&quot; 같은 것이 남았습니다.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-        <div class="wf-detail" id="detail-c-4">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">이슈에 답장하지 못한 날들에 대하여</b>
-              <span class="wf-card__stack">2025년 11월 · 8분</span>
-              <p class="wf-detail__body">한동안 이슈함을 열지 못했습니다. 열면 답해야 하고, 답하려면 코드를 다시 읽어야 하고, 그럴 시간이 없다는 사실을 확인하게 되니까요. 그렇게 쌓인 이슈가 200개가 넘었을 때 저장소를 접을 생각까지 했습니다.<br /><br />결국 한 것은 답장이 아니라 고지였습니다. README 맨 위에 지금 이 프로젝트에 쓸 수 있는 시간이 주당 두 시간이고, 그래서 어떤 종류의 이슈에 먼저 답하는지를 적었습니다.<br /><br />놀랍게도 이슈가 줄지는 않았지만, 화가 난 사람은 거의 사라졌습니다. 사람들이 견디지 못했던 것은 느린 답장이 아니라 예측할 수 없는 침묵이었습니다.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-        <div class="wf-detail" id="detail-c-5">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">성능 개선은 어디서 멈춰야 하는가</b>
-              <span class="wf-card__stack">2025년 8월 · 11분</span>
-              <p class="wf-detail__body">응답 시간을 800ms에서 200ms로 줄인 뒤, 저는 120ms를 향해 2주를 더 썼습니다. 아무도 요구하지 않았고, 아무도 체감하지 못했습니다.<br /><br />지금은 시작하기 전에 세 줄을 먼저 적습니다. 지금 얼마인가, 얼마가 되면 충분한가, 그 판단의 근거는 무엇인가. 세 번째 줄이 가장 어렵습니다. 대개 근거는 사용자 쪽에 있는데 우리는 대시보드만 보고 있기 때문입니다.<br /><br />충분함을 숫자로 적어 두면 개선은 끝날 수 있는 일이 됩니다. 끝낼 수 없는 일은 결국 다른 일을 잡아먹습니다.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-        <div class="wf-detail" id="detail-c-6">
-            <a class="wf-detail__scrim" href="#!" aria-label="닫기"></a>
-            <div class="wf-detail__box">
-              <a class="wf-detail__close" href="#!" aria-label="닫기">✕</a>
-              
-              <b class="wf-detail__title">신입에게 설명하다 내가 배운 것</b>
-              <span class="wf-card__stack">2025년 5월 · 7분</span>
-              <p class="wf-detail__body">입사 3주 차 동료에게 우리 인증 흐름을 설명하다 두 번 막혔습니다. 한 번은 토큰 갱신 시점에서, 한 번은 로그아웃이 실제로 무엇을 지우는지에서.<br /><br />그날 저녁 코드를 다시 읽고 알았습니다. 저는 그 두 곳을 &quot;아마 그럴 것&quot;이라고 믿고 3년을 써 왔습니다. 막힌 것은 설명이 아니라 이해였습니다.<br /><br />그 뒤로 새로 온 사람에게 설명하는 자리를 피하지 않습니다. 제가 어디를 대충 알고 있는지 알려 주는 가장 싼 방법이라서요.</p>
-              <a class="wf-card__link" href="https://example.com/" target="_blank" rel="noreferrer noopener">↗ 링크 열기</a>
-            </div>
-          </div>
-      </div>
-    </section>
-    <section class="wf__region" id="발표와-영상" style="grid-column:2;grid-row:3;min-height:0px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(56px, 6vw);line-height:1.7;--wf-muted:#5b5567" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-distance="18">
-      <div class="wf-sec" style="align-items:flex-start">
-        <h2 class="wf-sec__title">발표와 영상</h2>
-        
-        <ol class="wf-time"><li class="wf-time__row"><b>2026.05</b><span>느린 코드 리뷰의 진짜 원인 — 국내 개발자 콘퍼런스 (45분)</span></li><li class="wf-time__row"><b>2025.10</b><span>메인테이너의 시간 — 오픈소스 밋업 라운드테이블</span></li><li class="wf-time__row"><b>2025.06</b><span>장애 회고를 다시 쓰기 — 사내 공개 세션 (녹화 공개)</span></li><li class="wf-time__row"><b>2024.11</b><span>타입으로 못 적는 것들 — 타입스크립트 사용자 모임</span></li></ol>
+        <h1 class="wf-hero__title" style="font-size:clamp(1.9em, 8.5vw, calc(0.85 * 3.2em))">3D 아티스트<br />배시우입니다</h1>
+        <p class="wf-hero__sub">제품 렌더링, 캐릭터, 공간 시각화를 만듭니다. 웹에서 바로 보이는 가벼운 GLB 파일도 함께 드립니다.</p>
+        <a class="wf-btn" style="border-radius:8px" href="#contact">작업 문의</a>
       </div>
     </section>
     </div>
-    <div class="wf wf--row" style="grid-template-columns:repeat(2, minmax(0, 1fr));gap:0px">
-      <section class="wf__region" id="다른-곳에서는" style="min-height:260px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(28px, 6vw)" data-fx="reveal" data-fx-preset="rise" data-fx-duration="700" data-fx-distance="18">
-      <div class="wf-links wf-links--text" style="align-items:flex-start">
-        <h2 class="wf-sec__title">다른 곳에서는</h2>
-        <div class="wf-links__row">
-          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">전체 글 목록 (아카이브)<em class="wf-link__url">example.com</em></a>
-          <a class="wf-link" href="https://github.com/" target="_blank" rel="noreferrer noopener">GitHub<em class="wf-link__url">github.com</em></a>
-          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">격주 뉴스레터<em class="wf-link__url">example.com</em></a>
-          <a class="wf-link" href="https://example.com/" target="_blank" rel="noreferrer noopener">RSS<em class="wf-link__url">example.com</em></a>
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:auto auto auto;gap:10px">
+    <section class="wf__region" id="지금까지-한-작업" data-enter="up" style="grid-column:1;grid-row:1;min-height:0px;border-radius:0px;border-width:0px;padding:min(36px, 6vw)">
+      <div class="wf-sec" style="align-items:flex-start">
+        <h2 class="wf-sec__title">지금까지 한 작업</h2>
+        <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
+          <p class="wf-sec__body">브랜드 상세 페이지에 들어갈 제품 렌더부터 게임 캐릭터, 매장 완성 예상도까지 만듭니다.</p>
         </div>
+        <div class="wf-stats"><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:7" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">7</span><span class="wf-stat__suffix" aria-hidden="true">년</span><span class="wf-sr">7년</span></b><span class="wf-stat__label">3D 작업 경력</span></div><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:310" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">310</span><span class="wf-stat__suffix" aria-hidden="true">개</span><span class="wf-sr">310개</span></b><span class="wf-stat__label">만든 모델</span></div><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:45" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">45</span><span class="wf-stat__suffix" aria-hidden="true">곳</span><span class="wf-sr">45곳</span></b><span class="wf-stat__label">함께한 브랜드</span></div><div class="wf-stat"><b class="wf-stat__num"><i class="wf-stat__count" style="--wf-n-to:48" aria-hidden="true"></i><span class="wf-stat__plain" aria-hidden="true">48</span><span class="wf-stat__suffix" aria-hidden="true">시간</span><span class="wf-sr">48시간</span></b><span class="wf-stat__label">제품 렌더 첫 시안</span></div></div>
       </div>
     </section>
-      <section class="wf__region" style="min-height:260px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(0px, 6vw)" data-fx="tilt" data-fx-max-tilt="8" data-fx-perspective="900" data-fx-scale="1.02" data-fx-speed="400" data-fx-glare="true" data-fx-max-glare="0.18" data-fx-axis="both">
-      <div class="wf-bcard wf-bcard--manifest wf-bcard--ico-line is-2face" style="--bc-paper:0.55;max-width:460px">
-        <input class="wf-bcard__toggle" type="checkbox" id="bcflip-xw-2" aria-label="명함 뒤집기">
-        <div class="wf-bcard__flip">
-          <div class="wf-bcard__face wf-bcard__face--front">
-            <span class="wf-bcard__deco" aria-hidden="true"></span>
-            <span class="wf-bcard__paper" aria-hidden="true"></span>
-            <div class="wf-bcard__in">
-        <span class="wf-bcard__label">MARGIN NOTES</span>
-        <span class="wf-bcard__mono">임규</span>
+    <section class="wf__region" id="작업-과정" data-enter="up" style="grid-column:1;grid-row:2;min-height:0px;border-radius:0px;border-width:0px;padding:min(36px, 6vw)">
+      <div class="wf-gal is-phone2">
+        <h2 class="wf-sec__title">작업 과정</h2>
+        
+        
+        <div class="wf-gal__grid" style="grid-template-columns:repeat(4, minmax(0, 1fr))">
+          <article class="wf-card"><span class="wf-card__body">
+              
+              <b class="wf-card__title">01 모델링</b>
+              
+              <span class="wf-card__desc">참고 사진과 치수를 받아 형태를 먼저 맞춥니다.</span>
+              
+              
+              
+            </span></article>
+          <article class="wf-card"><span class="wf-card__body">
+              
+              <b class="wf-card__title">02 재질</b>
+              
+              <span class="wf-card__desc">금속, 가죽, 플라스틱처럼 실제 재료의 질감을 입힙니다.</span>
+              
+              
+              
+            </span></article>
+          <article class="wf-card"><span class="wf-card__body">
+              
+              <b class="wf-card__title">03 조명</b>
+              
+              <span class="wf-card__desc">제품이 가장 잘 보이는 빛의 방향과 세기를 정합니다.</span>
+              
+              
+              
+            </span></article>
+          <article class="wf-card"><span class="wf-card__body">
+              
+              <b class="wf-card__title">04 렌더</b>
+              
+              <span class="wf-card__desc">이미지와 영상, 웹용 GLB 파일로 내보냅니다.</span>
+              
+              
+              
+            </span></article>
+        </div>
+        
+        
+      </div>
+    </section>
+    
+    </div>
+    <a class="wf-down" href="#%EC%A7%80%EA%B8%88%EA%B9%8C%EC%A7%80-%ED%95%9C-%EC%9E%91%EC%97%85" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+  </div>
+  </section>
+  <section class="wf-pg" id="pg-1">
+  <div class="wf-page is-rowmax wf-enter wf-enter--zoom wf-ix" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px">
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:auto auto;gap:10px">
+    <section class="wf__region" id="작업" data-enter="up" style="grid-column:1;grid-row:2;min-height:0px;border-radius:0px;border-width:0px;padding:min(36px, 6vw)">
+      <div class="wf-gal is-phone2">
+        <h2 class="wf-sec__title">작업</h2>
+        <div class="wf-gal__filter" role="group" aria-label="태그별로 보기" hidden><button type="button" class="is-on" data-t="">전체</button><button type="button" data-t="제품">제품</button><button type="button" data-t="캐릭터">캐릭터</button><button type="button" data-t="공간">공간</button><button type="button" data-t="콘셉트">콘셉트</button></div>
+        <script>(function(b){b=document.currentScript.previousElementSibling;b.hidden=false;var g=b.parentNode;b.addEventListener('click',function(e){var t=e.target.closest('button');if(!t)return;[].forEach.call(b.children,function(x){x.classList.toggle('is-on',x===t);});var w=t.getAttribute('data-t');var m=g.querySelector('.wf-gal__more');if(w&&m)m.checked=true;[].forEach.call(g.querySelectorAll('.wf-gal__grid > [data-tags]'),function(c){c.classList.toggle('is-out',!!w&&('|'+c.getAttribute('data-tags')+'|').indexOf('|'+w+'|')<0);});});})();</script>
+        
+        <div class="wf-gal__grid" style="grid-template-columns:repeat(3, minmax(0, 1fr))">
+          <article data-tags="제품" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhmx2c4.webp" alt="흙길 위에 놓인 흰 헤드폰" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">헤드폰 제품 렌더</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">제품</span></span>
+              <span class="wf-card__desc">Blender · 상세 페이지용 이미지 5장</span>
+              
+              
+              
+            </span></article>
+          <article data-tags="캐릭터" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhmyqv5.webp" alt="빗방울 맺힌 창가에 선 우비 입은 인형" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">우비 입은 마스코트</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">캐릭터</span></span>
+              <span class="wf-card__desc">ZBrush · 게임 소개 영상용 마스코트</span>
+              
+              
+              
+            </span></article>
+          <article data-tags="공간" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhn03l6.webp" alt="가죽 소파와 조명이 있는 카페 실내" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">카페 매장 시각화</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">공간</span></span>
+              <span class="wf-card__desc">Unreal · 공사 전 완성 예상도</span>
+              
+              
+              
+            </span></article>
+          <article data-tags="제품" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhn1mv7.webp" alt="법랑 냄비의 3D 와이어프레임" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">법랑 냄비 모델링</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">제품</span></span>
+              <span class="wf-card__desc">Blender · 주방용품 브랜드 와이어프레임</span>
+              
+              
+              
+            </span></article>
+          <article data-tags="콘셉트" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhn35t8.webp" alt="회색 배경 위 우주선 3D 렌더" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">우주선 콘셉트 렌더</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">콘셉트</span></span>
+              <span class="wf-card__desc">Cinema 4D · 개인 작업</span>
+              
+              
+              
+            </span></article>
+          <article data-tags="공간" class="wf-card"><span class="wf-card__thumb" style="padding-bottom:70%"><img class="wf-card__img" src="./assets/images/imgmwfhn4z39.webp" alt="파란 소파가 있는 밝은 거실" loading="lazy" decoding="async" style="object-fit:cover" /></span><span class="wf-card__body">
+              
+              <b class="wf-card__title">아파트 모델하우스 거실</b>
+              <span class="wf-card__stack wf-card__stack--badges"><span class="wf-tag wf-tag--badge" style="--bdg-bg:#555555;--bdg-fg:#ffffff">공간</span></span>
+              <span class="wf-card__desc">Unreal · 분양 상담용 이미지 6장</span>
+              
+              
+              
+            </span></article>
+        </div>
+        
+        
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:10px">
+      <section class="wf__region" id="쓰는-도구" data-enter="up" style="min-height:0px;border-radius:0px;border-width:0px;padding:min(36px, 6vw)">
+      <div class="wf-sec" style="align-items:flex-start">
+        <h2 class="wf-sec__title">쓰는 도구</h2>
+        <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
+          <p class="wf-sec__body">모델링은 Blender와 ZBrush, 재질은 Substance Painter, 공간은 Unreal Engine으로 작업합니다.</p>
+        </div>
+        <div class="wf-marquee" style="--marq-t:18s"><div class="wf-marquee__track"><div class="wf-marquee__set"><span class="wf-tag">Blender</span><span class="wf-tag">ZBrush</span><span class="wf-tag">Substance Painter</span><span class="wf-tag">Cinema 4D</span><span class="wf-tag">Unreal Engine</span><span class="wf-tag">Marmoset Toolbag</span></div><div class="wf-marquee__set" aria-hidden="true"><span class="wf-tag">Blender</span><span class="wf-tag">ZBrush</span><span class="wf-tag">Substance Painter</span><span class="wf-tag">Cinema 4D</span><span class="wf-tag">Unreal Engine</span><span class="wf-tag">Marmoset Toolbag</span></div></div></div>
+      </div>
+    </section>
+    </div>
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:1fr auto;gap:10px">
+    <section class="wf__region" id="추천하는-영상" data-enter="up" style="grid-column:1;grid-row:1;min-height:0px;border-radius:0px;border-width:0px;padding:min(28px, 6vw)">
+      <div class="wf-video" style="align-items:center;text-align:center">
+        <h2 class="wf-sec__title">추천하는 영상</h2>
+        
+        <iframe class="wf-video__frame" src="https://www.youtube-nocookie.com/embed/2RK5PnecvvQ" title="추천하는 영상" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="wf-video__cap">PolygonIsland 채널의 「Product Rendering In Blender」. 제품 렌더의 조명과 카메라 잡는 법을 차례로 보여 줍니다.</p>
+      </div>
+    </section>
+    </div>
+    <a class="wf-down" href="#%EC%9E%91%EC%97%85" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+  </div>
+  </section>
+  <section class="wf-pg" id="pg-2">
+  <div class="wf-page is-rowmax wf-enter wf-enter--zoom wf-ix" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px">
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:auto auto 1fr;gap:10px">
+    <section class="wf__region" id="작업-단가" data-enter="up" style="grid-column:1;grid-row:2;min-height:0px;border-radius:0px;border-width:0px;padding:min(28px, 6vw)">
+      <div class="wf-table wf-table--stack">
+        <h2 class="wf-sec__title">작업 단가</h2>
+        <div class="wf-table__scroll"><table><thead><tr><th scope="col">작업</th><th scope="col">포함</th><th scope="col">기간</th><th scope="col">가격</th></tr></thead><tbody><tr><td data-h="작업">제품 렌더</td><td data-h="포함">모델링 · 렌더 이미지 5장</td><td data-h="기간">1주</td><td data-h="가격">800,000원부터</td></tr><tr><td data-h="작업">제품 회전 영상</td><td data-h="포함">렌더 · 10초 영상</td><td data-h="기간">2주</td><td data-h="가격">1,500,000원부터</td></tr><tr><td data-h="작업">캐릭터</td><td data-h="포함">모델링 · 재질 · 기본 포즈 3개</td><td data-h="기간">3주</td><td data-h="가격">2,500,000원부터</td></tr><tr><td data-h="작업">공간 시각화</td><td data-h="포함">실내 1곳 · 이미지 6장</td><td data-h="기간">2주</td><td data-h="가격">1,800,000원부터</td></tr></tbody></table></div>
+        <p class="wf-table__note">부가세 별도입니다. 모델 수와 난도에 따라 견적이 달라집니다.</p>
+      </div>
+    </section>
+    <section class="wf__region" id="수상-전시" data-enter="up" style="grid-column:1;grid-row:3;min-height:0px;border-radius:0px;border-width:0px;padding:min(36px, 6vw)">
+      <div class="wf-sec" style="align-items:flex-start">
+        <h2 class="wf-sec__title">수상 · 전시</h2>
+        <div class="wf-sec__cols" style="grid-template-columns:repeat(1, minmax(0, 1fr))">
+          <p class="wf-sec__body">개인 작업은 공모전과 전시로 선보입니다.</p>
+        </div>
+        <ol class="wf-time"><li class="wf-time__row"><b>3D 그래픽 공모전 캐릭터 부문 대상</b><span>2025</span></li><li class="wf-time__row"><b>디지털 아트 페어 단체전 참여</b><span>2024</span></li><li class="wf-time__row"><b>게임 잼 아트 부문 우수상</b><span>2022</span></li></ol>
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:10px">
+      <section class="wf__region" id="자주-묻는-질문" data-enter="up" style="min-height:0px;border-radius:0px;border-width:0px;padding:min(28px, 6vw)">
+      <div class="wf-faq">
+        <h2 class="wf-sec__title">자주 묻는 질문</h2>
+        <details class="wf-faq__item"><summary class="wf-faq__q">모델 파일도 받을 수 있나요?</summary><p class="wf-faq__a">렌더 이미지와 함께 GLB와 원본 Blender 파일을 드립니다.</p></details>
+        <details class="wf-faq__item"><summary class="wf-faq__q">웹사이트에 3D를 넣을 수 있나요?</summary><p class="wf-faq__a">가볍게 줄인 GLB 파일로 웹에서 여러 각도로 볼 수 있게 만들어 드립니다.</p></details>
+        <details class="wf-faq__item"><summary class="wf-faq__q">수정은 몇 번까지 되나요?</summary><p class="wf-faq__a">시안마다 두 번까지 고칩니다. 그 뒤로는 고치는 양에 따라 따로 견적을 드립니다.</p></details>
+        <script>(function(f){f=document.currentScript.parentNode;var was=[];addEventListener('beforeprint',function(){was=[].map.call(f.querySelectorAll('details'),function(d){var o=d.open;d.open=true;return o;});});addEventListener('afterprint',function(){[].forEach.call(f.querySelectorAll('details'),function(d,k){d.open=!!was[k];});});})();</script>
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:10px">
+      <section class="wf__region" id="고객-후기" data-enter="up" style="min-height:0px;border-radius:0px;border-width:0px;padding:min(28px, 6vw)">
+      <div class="wf-rev">
+        <h2 class="wf-sec__title">고객 후기</h2>
+        <div class="wf-rev__grid" style="--rev-cols:2"><figure class="wf-rev__card"><span class="wf-rev__stars" aria-label="별점 5점">★★★★★<i></i></span><blockquote class="wf-rev__text">실물 사진보다 제품의 재질이 더 잘 보여 상세 페이지에 그대로 썼습니다.</blockquote><figcaption class="wf-rev__name">음향 기기 브랜드 마케팅팀</figcaption></figure><figure class="wf-rev__card"><span class="wf-rev__stars" aria-label="별점 5점">★★★★★<i></i></span><blockquote class="wf-rev__text">공사 전에 매장 완성 모습을 보여 드릴 수 있어서 계약이 빨라졌습니다.</blockquote><figcaption class="wf-rev__name">인테리어 업체 대표</figcaption></figure></div>
+      </div>
+    </section>
+    </div>
+    <a class="wf-down" href="#%EC%9E%91%EC%97%85-%EB%8B%A8%EA%B0%80" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+  </div>
+  </section>
+  <section class="wf-pg" id="pg-3">
+  <div class="wf-page is-rowmax wf-enter wf-enter--zoom wf-ix" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px">
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:auto auto;gap:10px">
+    <section class="wf__region" id="contact" data-enter="up" style="grid-column:1;grid-row:2;min-height:0px;border-radius:0px;border-width:0px;padding:min(40px, 6vw)">
+      <div class="wf-contact" style="align-items:center;text-align:center">
+        <h2 class="wf-sec__title">작업 문의</h2>
+        <p class="wf-sec__body">제품 사진이나 참고 이미지를 메일로 보내 주시면 이틀 안에 견적을 드립니다.</p>
+        <a class="wf-contact__mail is-big" href="mailto:siwoo3d@example.com">siwoo3d@example.com</a>
+        
+        
+        
+        
+        
+        
+      </div>
+    </section>
+    </div>
+    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:10px">
+      <section class="wf__region" data-enter="up" style="min-height:0px;border-radius:0px;border-width:0px;padding:min(0px, 6vw)">
+      <div class="wf-bcardbox" style="max-width:520px"><div class="wf-bcard wf-bcard--night wf-bcard--ico-fill" style="--bc-paper:0.4;max-width:520px">
+        <span class="wf-bcard__deco" aria-hidden="true"></span>
+        <span class="wf-bcard__paper" aria-hidden="true"></span>
+        <div class="wf-bcard__in">
+        <span class="wf-bcard__label">SIWOO.3D</span>
+        <span class="wf-bcard__org">배시우 3D</span>
+        <span class="wf-bcard__mono">BS</span>
         <div class="wf-bcard__lead">
-          <b class="wf-bcard__role">Writing</b>
-          <span class="wf-bcard__rolesub">&amp; DevRel</span>
+          <b class="wf-bcard__role">3D 모델링 · 렌더</b>
+          <span class="wf-bcard__rolesub">제품 · 캐릭터 · 공간</span>
         </div>
         <div class="wf-bcard__info">
           <div class="wf-bcard__row">
             <span class="wf-bcard__text">
-              <b class="wf-bcard__name">임규호</b>
-              <span class="wf-bcard__nameen">Gyuho Lim</span>
-              <span class="wf-bcard__title">테크니컬 라이팅 · DevRel</span>
-              
+              <b class="wf-bcard__name">배시우</b>
+              <span class="wf-bcard__nameen">Bae Siwoo</span>
+              <span class="wf-bcard__title wf-bcard__titles"><span class="wf-bcard__tpart">3D 아티스트</span><span class="wf-bcard__tpart wf-bcard__tpart--org">배시우 3D</span></span>
             </span>
             <span class="wf-bcard__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-5 0-9 2.5-9 5.5V22h18v-2.5c0-3-4-5.5-9-5.5z" fill="currentColor"/></svg></span>
           </div>
-          
+          <div class="wf-bcard__row wf-bcard__row--mail"><span class="wf-bcard__text"><span class="wf-bcard__line">siwoo3d@example.com</span></span><span class="wf-bcard__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg></span></div><div class="wf-bcard__row wf-bcard__row--pin"><span class="wf-bcard__text"><span class="wf-bcard__line">서울 · 원격 작업</span></span><span class="wf-bcard__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></svg></span></div><div class="wf-bcard__row wf-bcard__row--globe"><span class="wf-bcard__text"><span class="wf-bcard__line">portfoliomaker-samples.github.io/16-margin-notes</span></span><span class="wf-bcard__ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM4.3 14a8 8 0 0 1 0-4h3.3a17 17 0 0 0 0 4H4.3zm.8 2h2.9c.3 1.3.8 2.5 1.4 3.6A8 8 0 0 1 5.1 16zm2.9-8H5.1a8 8 0 0 1 4.3-3.6A15.7 15.7 0 0 0 8 8zm4 12c-.8-1.2-1.4-2.5-1.8-4h3.6c-.4 1.5-1 2.8-1.8 4zm2.2-6H9.8a15 15 0 0 1 0-4h4.4a15 15 0 0 1 0 4zM12 4c.8 1.2 1.4 2.5 1.8 4h-3.6c.4-1.5 1-2.8 1.8-4zm2.6 15.6c.6-1.1 1.1-2.3 1.4-3.6h2.9a8 8 0 0 1-4.3 3.6zM16.4 14a17 17 0 0 0 0-4h3.3a8 8 0 0 1 0 4h-3.3zm-.4-6a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8h-2.9z" fill="currentColor"/></svg></span></div>
         </div>
-        
-        
-        
+        <p class="wf-bcard__tagline">웹에서 바로 보이는 3D를 만듭니다</p>
+        <span class="wf-bcard__stack">Blender, ZBrush, Unreal Engine</span>
+        <div class="wf-bcard__side"><span class="wf-bcard__qr"><svg class="wf-qr" viewBox="0 0 65 65" role="img" aria-label="연락처 QR 코드" shape-rendering="crispEdges"><path d="M2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM5,2h1v1h-1zM6,2h1v1h-1zM7,2h1v1h-1zM8,2h1v1h-1zM10,2h1v1h-1zM11,2h1v1h-1zM12,2h1v1h-1zM13,2h1v1h-1zM14,2h1v1h-1zM16,2h1v1h-1zM20,2h1v1h-1zM24,2h1v1h-1zM25,2h1v1h-1zM26,2h1v1h-1zM27,2h1v1h-1zM29,2h1v1h-1zM31,2h1v1h-1zM37,2h1v1h-1zM39,2h1v1h-1zM43,2h1v1h-1zM44,2h1v1h-1zM53,2h1v1h-1zM54,2h1v1h-1zM56,2h1v1h-1zM57,2h1v1h-1zM58,2h1v1h-1zM59,2h1v1h-1zM60,2h1v1h-1zM61,2h1v1h-1zM62,2h1v1h-1zM2,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM11,3h1v1h-1zM12,3h1v1h-1zM14,3h1v1h-1zM15,3h1v1h-1zM20,3h1v1h-1zM21,3h1v1h-1zM22,3h1v1h-1zM24,3h1v1h-1zM26,3h1v1h-1zM27,3h1v1h-1zM29,3h1v1h-1zM31,3h1v1h-1zM32,3h1v1h-1zM33,3h1v1h-1zM36,3h1v1h-1zM37,3h1v1h-1zM41,3h1v1h-1zM42,3h1v1h-1zM43,3h1v1h-1zM44,3h1v1h-1zM45,3h1v1h-1zM46,3h1v1h-1zM49,3h1v1h-1zM51,3h1v1h-1zM53,3h1v1h-1zM54,3h1v1h-1zM56,3h1v1h-1zM62,3h1v1h-1zM2,4h1v1h-1zM4,4h1v1h-1zM5,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM11,4h1v1h-1zM12,4h1v1h-1zM13,4h1v1h-1zM14,4h1v1h-1zM15,4h1v1h-1zM17,4h1v1h-1zM18,4h1v1h-1zM20,4h1v1h-1zM22,4h1v1h-1zM23,4h1v1h-1zM25,4h1v1h-1zM30,4h1v1h-1zM33,4h1v1h-1zM34,4h1v1h-1zM36,4h1v1h-1zM39,4h1v1h-1zM43,4h1v1h-1zM45,4h1v1h-1zM46,4h1v1h-1zM47,4h1v1h-1zM50,4h1v1h-1zM51,4h1v1h-1zM52,4h1v1h-1zM53,4h1v1h-1zM54,4h1v1h-1zM56,4h1v1h-1zM58,4h1v1h-1zM59,4h1v1h-1zM60,4h1v1h-1zM62,4h1v1h-1zM2,5h1v1h-1zM4,5h1v1h-1zM5,5h1v1h-1zM6,5h1v1h-1zM8,5h1v1h-1zM10,5h1v1h-1zM12,5h1v1h-1zM13,5h1v1h-1zM15,5h1v1h-1zM17,5h1v1h-1zM18,5h1v1h-1zM21,5h1v1h-1zM23,5h1v1h-1zM29,5h1v1h-1zM30,5h1v1h-1zM31,5h1v1h-1zM33,5h1v1h-1zM34,5h1v1h-1zM37,5h1v1h-1zM38,5h1v1h-1zM39,5h1v1h-1zM45,5h1v1h-1zM49,5h1v1h-1zM50,5h1v1h-1zM51,5h1v1h-1zM52,5h1v1h-1zM54,5h1v1h-1zM56,5h1v1h-1zM58,5h1v1h-1zM59,5h1v1h-1zM60,5h1v1h-1zM62,5h1v1h-1zM2,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM12,6h1v1h-1zM14,6h1v1h-1zM15,6h1v1h-1zM17,6h1v1h-1zM18,6h1v1h-1zM19,6h1v1h-1zM20,6h1v1h-1zM21,6h1v1h-1zM24,6h1v1h-1zM25,6h1v1h-1zM26,6h1v1h-1zM28,6h1v1h-1zM29,6h1v1h-1zM30,6h1v1h-1zM31,6h1v1h-1zM32,6h1v1h-1zM33,6h1v1h-1zM34,6h1v1h-1zM40,6h1v1h-1zM42,6h1v1h-1zM46,6h1v1h-1zM50,6h1v1h-1zM51,6h1v1h-1zM52,6h1v1h-1zM53,6h1v1h-1zM56,6h1v1h-1zM58,6h1v1h-1zM59,6h1v1h-1zM60,6h1v1h-1zM62,6h1v1h-1zM2,7h1v1h-1zM8,7h1v1h-1zM12,7h1v1h-1zM14,7h1v1h-1zM15,7h1v1h-1zM16,7h1v1h-1zM17,7h1v1h-1zM19,7h1v1h-1zM20,7h1v1h-1zM23,7h1v1h-1zM24,7h1v1h-1zM25,7h1v1h-1zM26,7h1v1h-1zM28,7h1v1h-1zM30,7h1v1h-1zM34,7h1v1h-1zM35,7h1v1h-1zM36,7h1v1h-1zM41,7h1v1h-1zM45,7h1v1h-1zM46,7h1v1h-1zM48,7h1v1h-1zM49,7h1v1h-1zM50,7h1v1h-1zM51,7h1v1h-1zM52,7h1v1h-1zM56,7h1v1h-1zM62,7h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM4,8h1v1h-1zM5,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM12,8h1v1h-1zM14,8h1v1h-1zM16,8h1v1h-1zM18,8h1v1h-1zM20,8h1v1h-1zM22,8h1v1h-1zM24,8h1v1h-1zM26,8h1v1h-1zM28,8h1v1h-1zM30,8h1v1h-1zM32,8h1v1h-1zM34,8h1v1h-1zM36,8h1v1h-1zM38,8h1v1h-1zM40,8h1v1h-1zM42,8h1v1h-1zM44,8h1v1h-1zM46,8h1v1h-1zM48,8h1v1h-1zM50,8h1v1h-1zM52,8h1v1h-1zM54,8h1v1h-1zM56,8h1v1h-1zM57,8h1v1h-1zM58,8h1v1h-1zM59,8h1v1h-1zM60,8h1v1h-1zM61,8h1v1h-1zM62,8h1v1h-1zM10,9h1v1h-1zM12,9h1v1h-1zM16,9h1v1h-1zM18,9h1v1h-1zM19,9h1v1h-1zM21,9h1v1h-1zM22,9h1v1h-1zM27,9h1v1h-1zM28,9h1v1h-1zM30,9h1v1h-1zM34,9h1v1h-1zM36,9h1v1h-1zM38,9h1v1h-1zM41,9h1v1h-1zM42,9h1v1h-1zM43,9h1v1h-1zM45,9h1v1h-1zM52,9h1v1h-1zM53,9h1v1h-1zM54,9h1v1h-1zM2,10h1v1h-1zM4,10h1v1h-1zM5,10h1v1h-1zM7,10h1v1h-1zM8,10h1v1h-1zM9,10h1v1h-1zM17,10h1v1h-1zM18,10h1v1h-1zM19,10h1v1h-1zM20,10h1v1h-1zM23,10h1v1h-1zM24,10h1v1h-1zM30,10h1v1h-1zM31,10h1v1h-1zM32,10h1v1h-1zM33,10h1v1h-1zM34,10h1v1h-1zM35,10h1v1h-1zM39,10h1v1h-1zM40,10h1v1h-1zM43,10h1v1h-1zM44,10h1v1h-1zM45,10h1v1h-1zM49,10h1v1h-1zM51,10h1v1h-1zM52,10h1v1h-1zM53,10h1v1h-1zM56,10h1v1h-1zM59,10h1v1h-1zM61,10h1v1h-1zM62,10h1v1h-1zM2,11h1v1h-1zM3,11h1v1h-1zM5,11h1v1h-1zM7,11h1v1h-1zM10,11h1v1h-1zM11,11h1v1h-1zM13,11h1v1h-1zM14,11h1v1h-1zM16,11h1v1h-1zM18,11h1v1h-1zM20,11h1v1h-1zM23,11h1v1h-1zM26,11h1v1h-1zM32,11h1v1h-1zM33,11h1v1h-1zM34,11h1v1h-1zM35,11h1v1h-1zM37,11h1v1h-1zM41,11h1v1h-1zM44,11h1v1h-1zM46,11h1v1h-1zM51,11h1v1h-1zM53,11h1v1h-1zM55,11h1v1h-1zM56,11h1v1h-1zM58,11h1v1h-1zM59,11h1v1h-1zM62,11h1v1h-1zM2,12h1v1h-1zM5,12h1v1h-1zM8,12h1v1h-1zM10,12h1v1h-1zM16,12h1v1h-1zM18,12h1v1h-1zM19,12h1v1h-1zM21,12h1v1h-1zM23,12h1v1h-1zM24,12h1v1h-1zM25,12h1v1h-1zM28,12h1v1h-1zM29,12h1v1h-1zM32,12h1v1h-1zM33,12h1v1h-1zM34,12h1v1h-1zM35,12h1v1h-1zM36,12h1v1h-1zM39,12h1v1h-1zM41,12h1v1h-1zM43,12h1v1h-1zM44,12h1v1h-1zM47,12h1v1h-1zM49,12h1v1h-1zM50,12h1v1h-1zM52,12h1v1h-1zM53,12h1v1h-1zM54,12h1v1h-1zM55,12h1v1h-1zM56,12h1v1h-1zM58,12h1v1h-1zM2,13h1v1h-1zM3,13h1v1h-1zM13,13h1v1h-1zM14,13h1v1h-1zM18,13h1v1h-1zM20,13h1v1h-1zM21,13h1v1h-1zM22,13h1v1h-1zM24,13h1v1h-1zM26,13h1v1h-1zM27,13h1v1h-1zM28,13h1v1h-1zM29,13h1v1h-1zM30,13h1v1h-1zM31,13h1v1h-1zM37,13h1v1h-1zM38,13h1v1h-1zM39,13h1v1h-1zM40,13h1v1h-1zM41,13h1v1h-1zM46,13h1v1h-1zM47,13h1v1h-1zM48,13h1v1h-1zM49,13h1v1h-1zM51,13h1v1h-1zM52,13h1v1h-1zM55,13h1v1h-1zM58,13h1v1h-1zM5,14h1v1h-1zM6,14h1v1h-1zM7,14h1v1h-1zM8,14h1v1h-1zM9,14h1v1h-1zM10,14h1v1h-1zM11,14h1v1h-1zM14,14h1v1h-1zM15,14h1v1h-1zM16,14h1v1h-1zM17,14h1v1h-1zM18,14h1v1h-1zM19,14h1v1h-1zM20,14h1v1h-1zM21,14h1v1h-1zM22,14h1v1h-1zM25,14h1v1h-1zM27,14h1v1h-1zM30,14h1v1h-1zM32,14h1v1h-1zM33,14h1v1h-1zM35,14h1v1h-1zM36,14h1v1h-1zM38,14h1v1h-1zM41,14h1v1h-1zM43,14h1v1h-1zM47,14h1v1h-1zM49,14h1v1h-1zM50,14h1v1h-1zM51,14h1v1h-1zM56,14h1v1h-1zM60,14h1v1h-1zM62,14h1v1h-1zM3,15h1v1h-1zM4,15h1v1h-1zM10,15h1v1h-1zM11,15h1v1h-1zM13,15h1v1h-1zM18,15h1v1h-1zM21,15h1v1h-1zM22,15h1v1h-1zM24,15h1v1h-1zM28,15h1v1h-1zM29,15h1v1h-1zM30,15h1v1h-1zM31,15h1v1h-1zM33,15h1v1h-1zM34,15h1v1h-1zM38,15h1v1h-1zM40,15h1v1h-1zM42,15h1v1h-1zM47,15h1v1h-1zM51,15h1v1h-1zM52,15h1v1h-1zM53,15h1v1h-1zM61,15h1v1h-1zM2,16h1v1h-1zM3,16h1v1h-1zM6,16h1v1h-1zM7,16h1v1h-1zM8,16h1v1h-1zM9,16h1v1h-1zM10,16h1v1h-1zM12,16h1v1h-1zM14,16h1v1h-1zM15,16h1v1h-1zM16,16h1v1h-1zM17,16h1v1h-1zM20,16h1v1h-1zM21,16h1v1h-1zM24,16h1v1h-1zM25,16h1v1h-1zM27,16h1v1h-1zM28,16h1v1h-1zM30,16h1v1h-1zM35,16h1v1h-1zM38,16h1v1h-1zM39,16h1v1h-1zM41,16h1v1h-1zM45,16h1v1h-1zM46,16h1v1h-1zM48,16h1v1h-1zM49,16h1v1h-1zM52,16h1v1h-1zM53,16h1v1h-1zM54,16h1v1h-1zM58,16h1v1h-1zM59,16h1v1h-1zM60,16h1v1h-1zM61,16h1v1h-1zM5,17h1v1h-1zM9,17h1v1h-1zM10,17h1v1h-1zM12,17h1v1h-1zM14,17h1v1h-1zM16,17h1v1h-1zM17,17h1v1h-1zM18,17h1v1h-1zM19,17h1v1h-1zM20,17h1v1h-1zM21,17h1v1h-1zM22,17h1v1h-1zM24,17h1v1h-1zM25,17h1v1h-1zM31,17h1v1h-1zM32,17h1v1h-1zM33,17h1v1h-1zM38,17h1v1h-1zM41,17h1v1h-1zM44,17h1v1h-1zM45,17h1v1h-1zM48,17h1v1h-1zM50,17h1v1h-1zM51,17h1v1h-1zM56,17h1v1h-1zM57,17h1v1h-1zM58,17h1v1h-1zM59,17h1v1h-1zM2,18h1v1h-1zM3,18h1v1h-1zM4,18h1v1h-1zM5,18h1v1h-1zM6,18h1v1h-1zM7,18h1v1h-1zM8,18h1v1h-1zM9,18h1v1h-1zM11,18h1v1h-1zM12,18h1v1h-1zM14,18h1v1h-1zM15,18h1v1h-1zM16,18h1v1h-1zM17,18h1v1h-1zM23,18h1v1h-1zM24,18h1v1h-1zM25,18h1v1h-1zM26,18h1v1h-1zM27,18h1v1h-1zM28,18h1v1h-1zM29,18h1v1h-1zM31,18h1v1h-1zM38,18h1v1h-1zM39,18h1v1h-1zM41,18h1v1h-1zM42,18h1v1h-1zM45,18h1v1h-1zM46,18h1v1h-1zM47,18h1v1h-1zM48,18h1v1h-1zM49,18h1v1h-1zM52,18h1v1h-1zM54,18h1v1h-1zM55,18h1v1h-1zM57,18h1v1h-1zM58,18h1v1h-1zM59,18h1v1h-1zM60,18h1v1h-1zM62,18h1v1h-1zM2,19h1v1h-1zM3,19h1v1h-1zM4,19h1v1h-1zM5,19h1v1h-1zM6,19h1v1h-1zM9,19h1v1h-1zM12,19h1v1h-1zM15,19h1v1h-1zM20,19h1v1h-1zM21,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM24,19h1v1h-1zM28,19h1v1h-1zM29,19h1v1h-1zM30,19h1v1h-1zM34,19h1v1h-1zM35,19h1v1h-1zM36,19h1v1h-1zM38,19h1v1h-1zM43,19h1v1h-1zM45,19h1v1h-1zM46,19h1v1h-1zM48,19h1v1h-1zM49,19h1v1h-1zM50,19h1v1h-1zM51,19h1v1h-1zM53,19h1v1h-1zM54,19h1v1h-1zM56,19h1v1h-1zM60,19h1v1h-1zM2,20h1v1h-1zM3,20h1v1h-1zM4,20h1v1h-1zM8,20h1v1h-1zM9,20h1v1h-1zM10,20h1v1h-1zM11,20h1v1h-1zM12,20h1v1h-1zM13,20h1v1h-1zM18,20h1v1h-1zM21,20h1v1h-1zM23,20h1v1h-1zM24,20h1v1h-1zM26,20h1v1h-1zM27,20h1v1h-1zM28,20h1v1h-1zM29,20h1v1h-1zM31,20h1v1h-1zM37,20h1v1h-1zM40,20h1v1h-1zM42,20h1v1h-1zM46,20h1v1h-1zM48,20h1v1h-1zM50,20h1v1h-1zM51,20h1v1h-1zM52,20h1v1h-1zM54,20h1v1h-1zM55,20h1v1h-1zM56,20h1v1h-1zM59,20h1v1h-1zM60,20h1v1h-1zM61,20h1v1h-1zM62,20h1v1h-1zM4,21h1v1h-1zM5,21h1v1h-1zM9,21h1v1h-1zM15,21h1v1h-1zM16,21h1v1h-1zM17,21h1v1h-1zM19,21h1v1h-1zM22,21h1v1h-1zM31,21h1v1h-1zM34,21h1v1h-1zM38,21h1v1h-1zM40,21h1v1h-1zM42,21h1v1h-1zM45,21h1v1h-1zM47,21h1v1h-1zM48,21h1v1h-1zM55,21h1v1h-1zM59,21h1v1h-1zM61,21h1v1h-1zM4,22h1v1h-1zM7,22h1v1h-1zM8,22h1v1h-1zM10,22h1v1h-1zM11,22h1v1h-1zM13,22h1v1h-1zM15,22h1v1h-1zM18,22h1v1h-1zM19,22h1v1h-1zM20,22h1v1h-1zM24,22h1v1h-1zM25,22h1v1h-1zM26,22h1v1h-1zM28,22h1v1h-1zM30,22h1v1h-1zM32,22h1v1h-1zM33,22h1v1h-1zM35,22h1v1h-1zM36,22h1v1h-1zM37,22h1v1h-1zM41,22h1v1h-1zM42,22h1v1h-1zM44,22h1v1h-1zM48,22h1v1h-1zM49,22h1v1h-1zM52,22h1v1h-1zM53,22h1v1h-1zM54,22h1v1h-1zM56,22h1v1h-1zM57,22h1v1h-1zM60,22h1v1h-1zM61,22h1v1h-1zM2,23h1v1h-1zM9,23h1v1h-1zM11,23h1v1h-1zM12,23h1v1h-1zM13,23h1v1h-1zM15,23h1v1h-1zM16,23h1v1h-1zM17,23h1v1h-1zM19,23h1v1h-1zM22,23h1v1h-1zM24,23h1v1h-1zM25,23h1v1h-1zM29,23h1v1h-1zM32,23h1v1h-1zM37,23h1v1h-1zM38,23h1v1h-1zM39,23h1v1h-1zM42,23h1v1h-1zM43,23h1v1h-1zM44,23h1v1h-1zM46,23h1v1h-1zM47,23h1v1h-1zM49,23h1v1h-1zM50,23h1v1h-1zM55,23h1v1h-1zM56,23h1v1h-1zM57,23h1v1h-1zM59,23h1v1h-1zM61,23h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM8,24h1v1h-1zM9,24h1v1h-1zM10,24h1v1h-1zM11,24h1v1h-1zM16,24h1v1h-1zM21,24h1v1h-1zM22,24h1v1h-1zM24,24h1v1h-1zM25,24h1v1h-1zM26,24h1v1h-1zM33,24h1v1h-1zM34,24h1v1h-1zM36,24h1v1h-1zM38,24h1v1h-1zM41,24h1v1h-1zM42,24h1v1h-1zM43,24h1v1h-1zM44,24h1v1h-1zM46,24h1v1h-1zM47,24h1v1h-1zM48,24h1v1h-1zM51,24h1v1h-1zM53,24h1v1h-1zM55,24h1v1h-1zM56,24h1v1h-1zM59,24h1v1h-1zM61,24h1v1h-1zM3,25h1v1h-1zM4,25h1v1h-1zM5,25h1v1h-1zM6,25h1v1h-1zM10,25h1v1h-1zM12,25h1v1h-1zM15,25h1v1h-1zM16,25h1v1h-1zM18,25h1v1h-1zM19,25h1v1h-1zM20,25h1v1h-1zM22,25h1v1h-1zM24,25h1v1h-1zM25,25h1v1h-1zM26,25h1v1h-1zM27,25h1v1h-1zM28,25h1v1h-1zM29,25h1v1h-1zM33,25h1v1h-1zM34,25h1v1h-1zM35,25h1v1h-1zM40,25h1v1h-1zM46,25h1v1h-1zM50,25h1v1h-1zM52,25h1v1h-1zM54,25h1v1h-1zM56,25h1v1h-1zM59,25h1v1h-1zM60,25h1v1h-1zM61,25h1v1h-1zM62,25h1v1h-1zM2,26h1v1h-1zM4,26h1v1h-1zM7,26h1v1h-1zM8,26h1v1h-1zM9,26h1v1h-1zM10,26h1v1h-1zM11,26h1v1h-1zM12,26h1v1h-1zM13,26h1v1h-1zM14,26h1v1h-1zM17,26h1v1h-1zM18,26h1v1h-1zM20,26h1v1h-1zM26,26h1v1h-1zM27,26h1v1h-1zM29,26h1v1h-1zM30,26h1v1h-1zM31,26h1v1h-1zM32,26h1v1h-1zM33,26h1v1h-1zM35,26h1v1h-1zM36,26h1v1h-1zM37,26h1v1h-1zM38,26h1v1h-1zM40,26h1v1h-1zM41,26h1v1h-1zM43,26h1v1h-1zM45,26h1v1h-1zM47,26h1v1h-1zM48,26h1v1h-1zM49,26h1v1h-1zM50,26h1v1h-1zM52,26h1v1h-1zM53,26h1v1h-1zM54,26h1v1h-1zM57,26h1v1h-1zM59,26h1v1h-1zM61,26h1v1h-1zM2,27h1v1h-1zM3,27h1v1h-1zM5,27h1v1h-1zM6,27h1v1h-1zM7,27h1v1h-1zM10,27h1v1h-1zM11,27h1v1h-1zM12,27h1v1h-1zM15,27h1v1h-1zM18,27h1v1h-1zM19,27h1v1h-1zM20,27h1v1h-1zM21,27h1v1h-1zM23,27h1v1h-1zM26,27h1v1h-1zM28,27h1v1h-1zM29,27h1v1h-1zM30,27h1v1h-1zM31,27h1v1h-1zM32,27h1v1h-1zM33,27h1v1h-1zM34,27h1v1h-1zM35,27h1v1h-1zM36,27h1v1h-1zM37,27h1v1h-1zM38,27h1v1h-1zM39,27h1v1h-1zM41,27h1v1h-1zM45,27h1v1h-1zM46,27h1v1h-1zM47,27h1v1h-1zM50,27h1v1h-1zM51,27h1v1h-1zM52,27h1v1h-1zM59,27h1v1h-1zM61,27h1v1h-1zM62,27h1v1h-1zM2,28h1v1h-1zM3,28h1v1h-1zM6,28h1v1h-1zM7,28h1v1h-1zM8,28h1v1h-1zM9,28h1v1h-1zM11,28h1v1h-1zM13,28h1v1h-1zM16,28h1v1h-1zM17,28h1v1h-1zM24,28h1v1h-1zM26,28h1v1h-1zM27,28h1v1h-1zM29,28h1v1h-1zM32,28h1v1h-1zM33,28h1v1h-1zM36,28h1v1h-1zM38,28h1v1h-1zM39,28h1v1h-1zM41,28h1v1h-1zM42,28h1v1h-1zM48,28h1v1h-1zM49,28h1v1h-1zM51,28h1v1h-1zM52,28h1v1h-1zM55,28h1v1h-1zM58,28h1v1h-1zM59,28h1v1h-1zM60,28h1v1h-1zM2,29h1v1h-1zM3,29h1v1h-1zM6,29h1v1h-1zM9,29h1v1h-1zM11,29h1v1h-1zM12,29h1v1h-1zM16,29h1v1h-1zM17,29h1v1h-1zM21,29h1v1h-1zM22,29h1v1h-1zM23,29h1v1h-1zM24,29h1v1h-1zM25,29h1v1h-1zM27,29h1v1h-1zM32,29h1v1h-1zM33,29h1v1h-1zM35,29h1v1h-1zM36,29h1v1h-1zM38,29h1v1h-1zM41,29h1v1h-1zM42,29h1v1h-1zM43,29h1v1h-1zM45,29h1v1h-1zM46,29h1v1h-1zM47,29h1v1h-1zM50,29h1v1h-1zM51,29h1v1h-1zM54,29h1v1h-1zM56,29h1v1h-1zM59,29h1v1h-1zM62,29h1v1h-1zM2,30h1v1h-1zM3,30h1v1h-1zM6,30h1v1h-1zM7,30h1v1h-1zM8,30h1v1h-1zM9,30h1v1h-1zM10,30h1v1h-1zM12,30h1v1h-1zM13,30h1v1h-1zM14,30h1v1h-1zM15,30h1v1h-1zM16,30h1v1h-1zM17,30h1v1h-1zM18,30h1v1h-1zM19,30h1v1h-1zM24,30h1v1h-1zM25,30h1v1h-1zM26,30h1v1h-1zM27,30h1v1h-1zM28,30h1v1h-1zM29,30h1v1h-1zM30,30h1v1h-1zM31,30h1v1h-1zM32,30h1v1h-1zM33,30h1v1h-1zM34,30h1v1h-1zM35,30h1v1h-1zM36,30h1v1h-1zM40,30h1v1h-1zM42,30h1v1h-1zM43,30h1v1h-1zM44,30h1v1h-1zM46,30h1v1h-1zM47,30h1v1h-1zM48,30h1v1h-1zM49,30h1v1h-1zM52,30h1v1h-1zM53,30h1v1h-1zM54,30h1v1h-1zM55,30h1v1h-1zM56,30h1v1h-1zM57,30h1v1h-1zM58,30h1v1h-1zM59,30h1v1h-1zM60,30h1v1h-1zM61,30h1v1h-1zM62,30h1v1h-1zM2,31h1v1h-1zM6,31h1v1h-1zM10,31h1v1h-1zM11,31h1v1h-1zM13,31h1v1h-1zM15,31h1v1h-1zM16,31h1v1h-1zM17,31h1v1h-1zM23,31h1v1h-1zM24,31h1v1h-1zM25,31h1v1h-1zM27,31h1v1h-1zM30,31h1v1h-1zM34,31h1v1h-1zM36,31h1v1h-1zM38,31h1v1h-1zM40,31h1v1h-1zM42,31h1v1h-1zM47,31h1v1h-1zM48,31h1v1h-1zM49,31h1v1h-1zM51,31h1v1h-1zM53,31h1v1h-1zM54,31h1v1h-1zM58,31h1v1h-1zM59,31h1v1h-1zM60,31h1v1h-1zM61,31h1v1h-1zM4,32h1v1h-1zM6,32h1v1h-1zM8,32h1v1h-1zM10,32h1v1h-1zM14,32h1v1h-1zM18,32h1v1h-1zM20,32h1v1h-1zM23,32h1v1h-1zM24,32h1v1h-1zM25,32h1v1h-1zM26,32h1v1h-1zM28,32h1v1h-1zM29,32h1v1h-1zM30,32h1v1h-1zM32,32h1v1h-1zM34,32h1v1h-1zM35,32h1v1h-1zM38,32h1v1h-1zM39,32h1v1h-1zM41,32h1v1h-1zM43,32h1v1h-1zM45,32h1v1h-1zM47,32h1v1h-1zM49,32h1v1h-1zM53,32h1v1h-1zM54,32h1v1h-1zM56,32h1v1h-1zM58,32h1v1h-1zM60,32h1v1h-1zM61,32h1v1h-1zM62,32h1v1h-1zM3,33h1v1h-1zM4,33h1v1h-1zM5,33h1v1h-1zM6,33h1v1h-1zM10,33h1v1h-1zM16,33h1v1h-1zM17,33h1v1h-1zM18,33h1v1h-1zM21,33h1v1h-1zM24,33h1v1h-1zM25,33h1v1h-1zM26,33h1v1h-1zM27,33h1v1h-1zM29,33h1v1h-1zM30,33h1v1h-1zM34,33h1v1h-1zM38,33h1v1h-1zM39,33h1v1h-1zM45,33h1v1h-1zM48,33h1v1h-1zM49,33h1v1h-1zM51,33h1v1h-1zM52,33h1v1h-1zM54,33h1v1h-1zM58,33h1v1h-1zM3,34h1v1h-1zM4,34h1v1h-1zM5,34h1v1h-1zM6,34h1v1h-1zM7,34h1v1h-1zM8,34h1v1h-1zM9,34h1v1h-1zM10,34h1v1h-1zM14,34h1v1h-1zM15,34h1v1h-1zM19,34h1v1h-1zM20,34h1v1h-1zM21,34h1v1h-1zM22,34h1v1h-1zM24,34h1v1h-1zM25,34h1v1h-1zM27,34h1v1h-1zM30,34h1v1h-1zM31,34h1v1h-1zM32,34h1v1h-1zM33,34h1v1h-1zM34,34h1v1h-1zM36,34h1v1h-1zM41,34h1v1h-1zM42,34h1v1h-1zM45,34h1v1h-1zM47,34h1v1h-1zM48,34h1v1h-1zM49,34h1v1h-1zM52,34h1v1h-1zM53,34h1v1h-1zM54,34h1v1h-1zM55,34h1v1h-1zM56,34h1v1h-1zM57,34h1v1h-1zM58,34h1v1h-1zM62,34h1v1h-1zM4,35h1v1h-1zM13,35h1v1h-1zM18,35h1v1h-1zM19,35h1v1h-1zM21,35h1v1h-1zM24,35h1v1h-1zM26,35h1v1h-1zM27,35h1v1h-1zM28,35h1v1h-1zM29,35h1v1h-1zM30,35h1v1h-1zM31,35h1v1h-1zM36,35h1v1h-1zM37,35h1v1h-1zM41,35h1v1h-1zM42,35h1v1h-1zM44,35h1v1h-1zM46,35h1v1h-1zM51,35h1v1h-1zM55,35h1v1h-1zM56,35h1v1h-1zM57,35h1v1h-1zM62,35h1v1h-1zM2,36h1v1h-1zM6,36h1v1h-1zM8,36h1v1h-1zM10,36h1v1h-1zM12,36h1v1h-1zM13,36h1v1h-1zM15,36h1v1h-1zM16,36h1v1h-1zM17,36h1v1h-1zM20,36h1v1h-1zM21,36h1v1h-1zM24,36h1v1h-1zM26,36h1v1h-1zM27,36h1v1h-1zM28,36h1v1h-1zM30,36h1v1h-1zM35,36h1v1h-1zM37,36h1v1h-1zM38,36h1v1h-1zM40,36h1v1h-1zM42,36h1v1h-1zM43,36h1v1h-1zM44,36h1v1h-1zM45,36h1v1h-1zM47,36h1v1h-1zM53,36h1v1h-1zM60,36h1v1h-1zM4,37h1v1h-1zM5,37h1v1h-1zM6,37h1v1h-1zM7,37h1v1h-1zM11,37h1v1h-1zM13,37h1v1h-1zM16,37h1v1h-1zM17,37h1v1h-1zM18,37h1v1h-1zM23,37h1v1h-1zM24,37h1v1h-1zM26,37h1v1h-1zM29,37h1v1h-1zM36,37h1v1h-1zM37,37h1v1h-1zM40,37h1v1h-1zM42,37h1v1h-1zM43,37h1v1h-1zM44,37h1v1h-1zM46,37h1v1h-1zM48,37h1v1h-1zM49,37h1v1h-1zM50,37h1v1h-1zM51,37h1v1h-1zM52,37h1v1h-1zM56,37h1v1h-1zM57,37h1v1h-1zM58,37h1v1h-1zM60,37h1v1h-1zM61,37h1v1h-1zM62,37h1v1h-1zM3,38h1v1h-1zM5,38h1v1h-1zM6,38h1v1h-1zM7,38h1v1h-1zM8,38h1v1h-1zM9,38h1v1h-1zM10,38h1v1h-1zM11,38h1v1h-1zM13,38h1v1h-1zM18,38h1v1h-1zM19,38h1v1h-1zM25,38h1v1h-1zM26,38h1v1h-1zM27,38h1v1h-1zM29,38h1v1h-1zM32,38h1v1h-1zM35,38h1v1h-1zM36,38h1v1h-1zM38,38h1v1h-1zM39,38h1v1h-1zM40,38h1v1h-1zM41,38h1v1h-1zM43,38h1v1h-1zM44,38h1v1h-1zM48,38h1v1h-1zM49,38h1v1h-1zM50,38h1v1h-1zM52,38h1v1h-1zM53,38h1v1h-1zM55,38h1v1h-1zM56,38h1v1h-1zM59,38h1v1h-1zM60,38h1v1h-1zM2,39h1v1h-1zM4,39h1v1h-1zM6,39h1v1h-1zM7,39h1v1h-1zM10,39h1v1h-1zM13,39h1v1h-1zM16,39h1v1h-1zM17,39h1v1h-1zM18,39h1v1h-1zM23,39h1v1h-1zM30,39h1v1h-1zM31,39h1v1h-1zM33,39h1v1h-1zM39,39h1v1h-1zM40,39h1v1h-1zM46,39h1v1h-1zM47,39h1v1h-1zM51,39h1v1h-1zM52,39h1v1h-1zM53,39h1v1h-1zM54,39h1v1h-1zM57,39h1v1h-1zM58,39h1v1h-1zM59,39h1v1h-1zM61,39h1v1h-1zM62,39h1v1h-1zM4,40h1v1h-1zM5,40h1v1h-1zM7,40h1v1h-1zM8,40h1v1h-1zM13,40h1v1h-1zM18,40h1v1h-1zM22,40h1v1h-1zM25,40h1v1h-1zM26,40h1v1h-1zM27,40h1v1h-1zM30,40h1v1h-1zM31,40h1v1h-1zM35,40h1v1h-1zM39,40h1v1h-1zM40,40h1v1h-1zM41,40h1v1h-1zM42,40h1v1h-1zM43,40h1v1h-1zM44,40h1v1h-1zM49,40h1v1h-1zM52,40h1v1h-1zM53,40h1v1h-1zM55,40h1v1h-1zM59,40h1v1h-1zM60,40h1v1h-1zM61,40h1v1h-1zM62,40h1v1h-1zM2,41h1v1h-1zM4,41h1v1h-1zM5,41h1v1h-1zM11,41h1v1h-1zM12,41h1v1h-1zM13,41h1v1h-1zM14,41h1v1h-1zM16,41h1v1h-1zM17,41h1v1h-1zM19,41h1v1h-1zM21,41h1v1h-1zM22,41h1v1h-1zM27,41h1v1h-1zM31,41h1v1h-1zM32,41h1v1h-1zM33,41h1v1h-1zM36,41h1v1h-1zM40,41h1v1h-1zM41,41h1v1h-1zM42,41h1v1h-1zM43,41h1v1h-1zM45,41h1v1h-1zM46,41h1v1h-1zM47,41h1v1h-1zM48,41h1v1h-1zM49,41h1v1h-1zM50,41h1v1h-1zM52,41h1v1h-1zM53,41h1v1h-1zM54,41h1v1h-1zM55,41h1v1h-1zM56,41h1v1h-1zM58,41h1v1h-1zM62,41h1v1h-1zM3,42h1v1h-1zM8,42h1v1h-1zM9,42h1v1h-1zM19,42h1v1h-1zM20,42h1v1h-1zM21,42h1v1h-1zM22,42h1v1h-1zM28,42h1v1h-1zM29,42h1v1h-1zM30,42h1v1h-1zM31,42h1v1h-1zM34,42h1v1h-1zM35,42h1v1h-1zM37,42h1v1h-1zM39,42h1v1h-1zM41,42h1v1h-1zM44,42h1v1h-1zM45,42h1v1h-1zM46,42h1v1h-1zM48,42h1v1h-1zM51,42h1v1h-1zM55,42h1v1h-1zM61,42h1v1h-1zM2,43h1v1h-1zM5,43h1v1h-1zM9,43h1v1h-1zM10,43h1v1h-1zM12,43h1v1h-1zM13,43h1v1h-1zM15,43h1v1h-1zM16,43h1v1h-1zM17,43h1v1h-1zM19,43h1v1h-1zM20,43h1v1h-1zM21,43h1v1h-1zM22,43h1v1h-1zM29,43h1v1h-1zM30,43h1v1h-1zM31,43h1v1h-1zM32,43h1v1h-1zM35,43h1v1h-1zM36,43h1v1h-1zM38,43h1v1h-1zM41,43h1v1h-1zM42,43h1v1h-1zM43,43h1v1h-1zM46,43h1v1h-1zM47,43h1v1h-1zM48,43h1v1h-1zM50,43h1v1h-1zM51,43h1v1h-1zM54,43h1v1h-1zM55,43h1v1h-1zM59,43h1v1h-1zM62,43h1v1h-1zM2,44h1v1h-1zM8,44h1v1h-1zM13,44h1v1h-1zM15,44h1v1h-1zM16,44h1v1h-1zM17,44h1v1h-1zM21,44h1v1h-1zM22,44h1v1h-1zM24,44h1v1h-1zM25,44h1v1h-1zM26,44h1v1h-1zM27,44h1v1h-1zM28,44h1v1h-1zM31,44h1v1h-1zM34,44h1v1h-1zM36,44h1v1h-1zM38,44h1v1h-1zM40,44h1v1h-1zM41,44h1v1h-1zM42,44h1v1h-1zM45,44h1v1h-1zM46,44h1v1h-1zM48,44h1v1h-1zM53,44h1v1h-1zM55,44h1v1h-1zM57,44h1v1h-1zM62,44h1v1h-1zM2,45h1v1h-1zM4,45h1v1h-1zM6,45h1v1h-1zM9,45h1v1h-1zM15,45h1v1h-1zM17,45h1v1h-1zM20,45h1v1h-1zM22,45h1v1h-1zM25,45h1v1h-1zM30,45h1v1h-1zM31,45h1v1h-1zM32,45h1v1h-1zM34,45h1v1h-1zM37,45h1v1h-1zM40,45h1v1h-1zM42,45h1v1h-1zM43,45h1v1h-1zM47,45h1v1h-1zM50,45h1v1h-1zM51,45h1v1h-1zM54,45h1v1h-1zM55,45h1v1h-1zM57,45h1v1h-1zM59,45h1v1h-1zM62,45h1v1h-1zM2,46h1v1h-1zM3,46h1v1h-1zM5,46h1v1h-1zM6,46h1v1h-1zM7,46h1v1h-1zM8,46h1v1h-1zM10,46h1v1h-1zM11,46h1v1h-1zM12,46h1v1h-1zM17,46h1v1h-1zM18,46h1v1h-1zM19,46h1v1h-1zM26,46h1v1h-1zM29,46h1v1h-1zM31,46h1v1h-1zM33,46h1v1h-1zM35,46h1v1h-1zM36,46h1v1h-1zM41,46h1v1h-1zM42,46h1v1h-1zM43,46h1v1h-1zM47,46h1v1h-1zM48,46h1v1h-1zM49,46h1v1h-1zM52,46h1v1h-1zM55,46h1v1h-1zM57,46h1v1h-1zM58,46h1v1h-1zM60,46h1v1h-1zM61,46h1v1h-1zM62,46h1v1h-1zM2,47h1v1h-1zM3,47h1v1h-1zM4,47h1v1h-1zM5,47h1v1h-1zM6,47h1v1h-1zM7,47h1v1h-1zM9,47h1v1h-1zM10,47h1v1h-1zM12,47h1v1h-1zM13,47h1v1h-1zM15,47h1v1h-1zM16,47h1v1h-1zM17,47h1v1h-1zM19,47h1v1h-1zM21,47h1v1h-1zM25,47h1v1h-1zM26,47h1v1h-1zM29,47h1v1h-1zM35,47h1v1h-1zM37,47h1v1h-1zM38,47h1v1h-1zM41,47h1v1h-1zM43,47h1v1h-1zM44,47h1v1h-1zM49,47h1v1h-1zM50,47h1v1h-1zM51,47h1v1h-1zM55,47h1v1h-1zM58,47h1v1h-1zM60,47h1v1h-1zM61,47h1v1h-1zM5,48h1v1h-1zM8,48h1v1h-1zM10,48h1v1h-1zM11,48h1v1h-1zM13,48h1v1h-1zM16,48h1v1h-1zM19,48h1v1h-1zM20,48h1v1h-1zM22,48h1v1h-1zM23,48h1v1h-1zM25,48h1v1h-1zM26,48h1v1h-1zM30,48h1v1h-1zM32,48h1v1h-1zM34,48h1v1h-1zM35,48h1v1h-1zM38,48h1v1h-1zM39,48h1v1h-1zM40,48h1v1h-1zM41,48h1v1h-1zM42,48h1v1h-1zM46,48h1v1h-1zM49,48h1v1h-1zM50,48h1v1h-1zM51,48h1v1h-1zM58,48h1v1h-1zM59,48h1v1h-1zM61,48h1v1h-1zM62,48h1v1h-1zM2,49h1v1h-1zM5,49h1v1h-1zM6,49h1v1h-1zM7,49h1v1h-1zM11,49h1v1h-1zM12,49h1v1h-1zM13,49h1v1h-1zM14,49h1v1h-1zM15,49h1v1h-1zM21,49h1v1h-1zM24,49h1v1h-1zM25,49h1v1h-1zM26,49h1v1h-1zM30,49h1v1h-1zM32,49h1v1h-1zM35,49h1v1h-1zM37,49h1v1h-1zM40,49h1v1h-1zM41,49h1v1h-1zM45,49h1v1h-1zM52,49h1v1h-1zM53,49h1v1h-1zM56,49h1v1h-1zM57,49h1v1h-1zM59,49h1v1h-1zM60,49h1v1h-1zM3,50h1v1h-1zM4,50h1v1h-1zM5,50h1v1h-1zM6,50h1v1h-1zM8,50h1v1h-1zM9,50h1v1h-1zM11,50h1v1h-1zM12,50h1v1h-1zM17,50h1v1h-1zM20,50h1v1h-1zM23,50h1v1h-1zM24,50h1v1h-1zM25,50h1v1h-1zM27,50h1v1h-1zM29,50h1v1h-1zM31,50h1v1h-1zM34,50h1v1h-1zM37,50h1v1h-1zM38,50h1v1h-1zM42,50h1v1h-1zM44,50h1v1h-1zM45,50h1v1h-1zM50,50h1v1h-1zM51,50h1v1h-1zM53,50h1v1h-1zM54,50h1v1h-1zM55,50h1v1h-1zM56,50h1v1h-1zM59,50h1v1h-1zM61,50h1v1h-1zM2,51h1v1h-1zM4,51h1v1h-1zM10,51h1v1h-1zM11,51h1v1h-1zM14,51h1v1h-1zM16,51h1v1h-1zM17,51h1v1h-1zM18,51h1v1h-1zM21,51h1v1h-1zM22,51h1v1h-1zM23,51h1v1h-1zM24,51h1v1h-1zM25,51h1v1h-1zM28,51h1v1h-1zM29,51h1v1h-1zM30,51h1v1h-1zM31,51h1v1h-1zM38,51h1v1h-1zM43,51h1v1h-1zM46,51h1v1h-1zM47,51h1v1h-1zM50,51h1v1h-1zM52,51h1v1h-1zM55,51h1v1h-1zM56,51h1v1h-1zM57,51h1v1h-1zM58,51h1v1h-1zM4,52h1v1h-1zM5,52h1v1h-1zM6,52h1v1h-1zM7,52h1v1h-1zM8,52h1v1h-1zM9,52h1v1h-1zM10,52h1v1h-1zM12,52h1v1h-1zM16,52h1v1h-1zM17,52h1v1h-1zM18,52h1v1h-1zM20,52h1v1h-1zM21,52h1v1h-1zM23,52h1v1h-1zM24,52h1v1h-1zM25,52h1v1h-1zM26,52h1v1h-1zM27,52h1v1h-1zM28,52h1v1h-1zM33,52h1v1h-1zM36,52h1v1h-1zM37,52h1v1h-1zM38,52h1v1h-1zM40,52h1v1h-1zM41,52h1v1h-1zM42,52h1v1h-1zM46,52h1v1h-1zM48,52h1v1h-1zM49,52h1v1h-1zM50,52h1v1h-1zM51,52h1v1h-1zM53,52h1v1h-1zM55,52h1v1h-1zM60,52h1v1h-1zM61,52h1v1h-1zM2,53h1v1h-1zM3,53h1v1h-1zM4,53h1v1h-1zM6,53h1v1h-1zM10,53h1v1h-1zM12,53h1v1h-1zM13,53h1v1h-1zM14,53h1v1h-1zM15,53h1v1h-1zM17,53h1v1h-1zM18,53h1v1h-1zM19,53h1v1h-1zM21,53h1v1h-1zM22,53h1v1h-1zM24,53h1v1h-1zM28,53h1v1h-1zM30,53h1v1h-1zM32,53h1v1h-1zM33,53h1v1h-1zM34,53h1v1h-1zM36,53h1v1h-1zM37,53h1v1h-1zM40,53h1v1h-1zM41,53h1v1h-1zM44,53h1v1h-1zM49,53h1v1h-1zM50,53h1v1h-1zM51,53h1v1h-1zM52,53h1v1h-1zM56,53h1v1h-1zM58,53h1v1h-1zM60,53h1v1h-1zM62,53h1v1h-1zM2,54h1v1h-1zM3,54h1v1h-1zM4,54h1v1h-1zM5,54h1v1h-1zM8,54h1v1h-1zM10,54h1v1h-1zM11,54h1v1h-1zM14,54h1v1h-1zM16,54h1v1h-1zM17,54h1v1h-1zM18,54h1v1h-1zM19,54h1v1h-1zM20,54h1v1h-1zM21,54h1v1h-1zM22,54h1v1h-1zM26,54h1v1h-1zM28,54h1v1h-1zM30,54h1v1h-1zM31,54h1v1h-1zM32,54h1v1h-1zM33,54h1v1h-1zM34,54h1v1h-1zM37,54h1v1h-1zM43,54h1v1h-1zM45,54h1v1h-1zM46,54h1v1h-1zM51,54h1v1h-1zM54,54h1v1h-1zM55,54h1v1h-1zM56,54h1v1h-1zM57,54h1v1h-1zM58,54h1v1h-1zM59,54h1v1h-1zM10,55h1v1h-1zM13,55h1v1h-1zM15,55h1v1h-1zM19,55h1v1h-1zM21,55h1v1h-1zM22,55h1v1h-1zM28,55h1v1h-1zM29,55h1v1h-1zM30,55h1v1h-1zM34,55h1v1h-1zM41,55h1v1h-1zM42,55h1v1h-1zM43,55h1v1h-1zM46,55h1v1h-1zM47,55h1v1h-1zM48,55h1v1h-1zM50,55h1v1h-1zM53,55h1v1h-1zM54,55h1v1h-1zM58,55h1v1h-1zM59,55h1v1h-1zM2,56h1v1h-1zM3,56h1v1h-1zM4,56h1v1h-1zM5,56h1v1h-1zM6,56h1v1h-1zM7,56h1v1h-1zM8,56h1v1h-1zM10,56h1v1h-1zM11,56h1v1h-1zM14,56h1v1h-1zM15,56h1v1h-1zM16,56h1v1h-1zM18,56h1v1h-1zM19,56h1v1h-1zM21,56h1v1h-1zM22,56h1v1h-1zM24,56h1v1h-1zM26,56h1v1h-1zM29,56h1v1h-1zM30,56h1v1h-1zM32,56h1v1h-1zM34,56h1v1h-1zM36,56h1v1h-1zM38,56h1v1h-1zM42,56h1v1h-1zM44,56h1v1h-1zM45,56h1v1h-1zM46,56h1v1h-1zM47,56h1v1h-1zM52,56h1v1h-1zM53,56h1v1h-1zM54,56h1v1h-1zM56,56h1v1h-1zM58,56h1v1h-1zM61,56h1v1h-1zM62,56h1v1h-1zM2,57h1v1h-1zM8,57h1v1h-1zM10,57h1v1h-1zM14,57h1v1h-1zM15,57h1v1h-1zM16,57h1v1h-1zM20,57h1v1h-1zM22,57h1v1h-1zM23,57h1v1h-1zM24,57h1v1h-1zM26,57h1v1h-1zM29,57h1v1h-1zM30,57h1v1h-1zM34,57h1v1h-1zM36,57h1v1h-1zM37,57h1v1h-1zM39,57h1v1h-1zM43,57h1v1h-1zM46,57h1v1h-1zM47,57h1v1h-1zM49,57h1v1h-1zM50,57h1v1h-1zM52,57h1v1h-1zM53,57h1v1h-1zM54,57h1v1h-1zM58,57h1v1h-1zM59,57h1v1h-1zM62,57h1v1h-1zM2,58h1v1h-1zM4,58h1v1h-1zM5,58h1v1h-1zM6,58h1v1h-1zM8,58h1v1h-1zM11,58h1v1h-1zM14,58h1v1h-1zM15,58h1v1h-1zM16,58h1v1h-1zM18,58h1v1h-1zM19,58h1v1h-1zM20,58h1v1h-1zM24,58h1v1h-1zM27,58h1v1h-1zM30,58h1v1h-1zM31,58h1v1h-1zM32,58h1v1h-1zM33,58h1v1h-1zM34,58h1v1h-1zM35,58h1v1h-1zM37,58h1v1h-1zM38,58h1v1h-1zM41,58h1v1h-1zM42,58h1v1h-1zM48,58h1v1h-1zM49,58h1v1h-1zM52,58h1v1h-1zM54,58h1v1h-1zM55,58h1v1h-1zM56,58h1v1h-1zM57,58h1v1h-1zM58,58h1v1h-1zM2,59h1v1h-1zM4,59h1v1h-1zM5,59h1v1h-1zM6,59h1v1h-1zM8,59h1v1h-1zM10,59h1v1h-1zM12,59h1v1h-1zM14,59h1v1h-1zM16,59h1v1h-1zM23,59h1v1h-1zM24,59h1v1h-1zM25,59h1v1h-1zM26,59h1v1h-1zM28,59h1v1h-1zM31,59h1v1h-1zM34,59h1v1h-1zM41,59h1v1h-1zM42,59h1v1h-1zM43,59h1v1h-1zM44,59h1v1h-1zM46,59h1v1h-1zM50,59h1v1h-1zM51,59h1v1h-1zM53,59h1v1h-1zM55,59h1v1h-1zM56,59h1v1h-1zM57,59h1v1h-1zM58,59h1v1h-1zM62,59h1v1h-1zM2,60h1v1h-1zM4,60h1v1h-1zM5,60h1v1h-1zM6,60h1v1h-1zM8,60h1v1h-1zM10,60h1v1h-1zM11,60h1v1h-1zM14,60h1v1h-1zM15,60h1v1h-1zM16,60h1v1h-1zM19,60h1v1h-1zM20,60h1v1h-1zM22,60h1v1h-1zM23,60h1v1h-1zM27,60h1v1h-1zM29,60h1v1h-1zM30,60h1v1h-1zM33,60h1v1h-1zM35,60h1v1h-1zM38,60h1v1h-1zM40,60h1v1h-1zM43,60h1v1h-1zM44,60h1v1h-1zM45,60h1v1h-1zM53,60h1v1h-1zM58,60h1v1h-1zM59,60h1v1h-1zM60,60h1v1h-1zM61,60h1v1h-1zM2,61h1v1h-1zM8,61h1v1h-1zM11,61h1v1h-1zM12,61h1v1h-1zM14,61h1v1h-1zM17,61h1v1h-1zM19,61h1v1h-1zM24,61h1v1h-1zM26,61h1v1h-1zM27,61h1v1h-1zM28,61h1v1h-1zM30,61h1v1h-1zM31,61h1v1h-1zM32,61h1v1h-1zM33,61h1v1h-1zM34,61h1v1h-1zM36,61h1v1h-1zM37,61h1v1h-1zM38,61h1v1h-1zM43,61h1v1h-1zM44,61h1v1h-1zM45,61h1v1h-1zM46,61h1v1h-1zM48,61h1v1h-1zM52,61h1v1h-1zM59,61h1v1h-1zM60,61h1v1h-1zM2,62h1v1h-1zM3,62h1v1h-1zM4,62h1v1h-1zM5,62h1v1h-1zM6,62h1v1h-1zM7,62h1v1h-1zM8,62h1v1h-1zM10,62h1v1h-1zM12,62h1v1h-1zM13,62h1v1h-1zM14,62h1v1h-1zM15,62h1v1h-1zM17,62h1v1h-1zM18,62h1v1h-1zM20,62h1v1h-1zM21,62h1v1h-1zM22,62h1v1h-1zM26,62h1v1h-1zM27,62h1v1h-1zM28,62h1v1h-1zM29,62h1v1h-1zM31,62h1v1h-1zM32,62h1v1h-1zM33,62h1v1h-1zM35,62h1v1h-1zM37,62h1v1h-1zM38,62h1v1h-1zM39,62h1v1h-1zM44,62h1v1h-1zM45,62h1v1h-1zM47,62h1v1h-1zM50,62h1v1h-1zM51,62h1v1h-1zM53,62h1v1h-1zM57,62h1v1h-1zM59,62h1v1h-1zM61,62h1v1h-1zM62,62h1v1h-1z" fill="currentColor"/></svg></span><a class="wf-bcard__save" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3A%EB%B0%B0%EC%8B%9C%EC%9A%B0%3B%3B%3B%3B%0D%0AFN%3A%EB%B0%B0%EC%8B%9C%EC%9A%B0%0D%0ANICKNAME%3ABae%20Siwoo%0D%0ATITLE%3A3D%20%EC%95%84%ED%8B%B0%EC%8A%A4%ED%8A%B8%0D%0AORG%3A%EB%B0%B0%EC%8B%9C%EC%9A%B0%203D%0D%0AEMAIL%3BTYPE%3DINTERNET%3Asiwoo3d%40example.com%0D%0AADR%3BTYPE%3DWORK%3A%3B%3B%EC%84%9C%EC%9A%B8%20%C2%B7%20%EC%9B%90%EA%B2%A9%20%EC%9E%91%EC%97%85%3B%3B%3B%3B%0D%0AURL%3Aportfoliomaker-samples.github.io%2F16-margin-notes%0D%0AEND%3AVCARD" download="배시우.vcf">연락처 저장</a></div>
         </div>
-          </div>
-          <div class="wf-bcard__face wf-bcard__face--back"><span class="wf-bcard__paper" aria-hidden="true"></span><div class="wf-bcard__in wf-bcard__in--back">
-        <p class="wf-bcard__tagline">복잡한 것을 설명할 수 있는 크기로 줄입니다.</p>
-        <div class="wf-bcard__info"></div>
-        <span class="wf-bcard__stack">문서 · 발표 · 리뷰</span>
-        <div class="wf-bcard__side"><span class="wf-bcard__qr"><svg class="wf-qr" viewBox="0 0 45 45" role="img" aria-label="연락처 QR 코드" shape-rendering="crispEdges"><path d="M2,2h1v1h-1zM3,2h1v1h-1zM4,2h1v1h-1zM5,2h1v1h-1zM6,2h1v1h-1zM7,2h1v1h-1zM8,2h1v1h-1zM10,2h1v1h-1zM11,2h1v1h-1zM19,2h1v1h-1zM21,2h1v1h-1zM22,2h1v1h-1zM23,2h1v1h-1zM25,2h1v1h-1zM27,2h1v1h-1zM28,2h1v1h-1zM29,2h1v1h-1zM30,2h1v1h-1zM31,2h1v1h-1zM32,2h1v1h-1zM33,2h1v1h-1zM34,2h1v1h-1zM36,2h1v1h-1zM37,2h1v1h-1zM38,2h1v1h-1zM39,2h1v1h-1zM40,2h1v1h-1zM41,2h1v1h-1zM42,2h1v1h-1zM2,3h1v1h-1zM8,3h1v1h-1zM10,3h1v1h-1zM11,3h1v1h-1zM18,3h1v1h-1zM20,3h1v1h-1zM22,3h1v1h-1zM24,3h1v1h-1zM25,3h1v1h-1zM27,3h1v1h-1zM28,3h1v1h-1zM30,3h1v1h-1zM31,3h1v1h-1zM32,3h1v1h-1zM36,3h1v1h-1zM42,3h1v1h-1zM2,4h1v1h-1zM4,4h1v1h-1zM5,4h1v1h-1zM6,4h1v1h-1zM8,4h1v1h-1zM12,4h1v1h-1zM13,4h1v1h-1zM15,4h1v1h-1zM18,4h1v1h-1zM19,4h1v1h-1zM21,4h1v1h-1zM22,4h1v1h-1zM24,4h1v1h-1zM26,4h1v1h-1zM27,4h1v1h-1zM30,4h1v1h-1zM32,4h1v1h-1zM33,4h1v1h-1zM36,4h1v1h-1zM38,4h1v1h-1zM39,4h1v1h-1zM40,4h1v1h-1zM42,4h1v1h-1zM2,5h1v1h-1zM4,5h1v1h-1zM5,5h1v1h-1zM6,5h1v1h-1zM8,5h1v1h-1zM10,5h1v1h-1zM11,5h1v1h-1zM12,5h1v1h-1zM13,5h1v1h-1zM14,5h1v1h-1zM15,5h1v1h-1zM21,5h1v1h-1zM23,5h1v1h-1zM25,5h1v1h-1zM26,5h1v1h-1zM28,5h1v1h-1zM32,5h1v1h-1zM33,5h1v1h-1zM36,5h1v1h-1zM38,5h1v1h-1zM39,5h1v1h-1zM40,5h1v1h-1zM42,5h1v1h-1zM2,6h1v1h-1zM4,6h1v1h-1zM5,6h1v1h-1zM6,6h1v1h-1zM8,6h1v1h-1zM15,6h1v1h-1zM16,6h1v1h-1zM19,6h1v1h-1zM23,6h1v1h-1zM25,6h1v1h-1zM26,6h1v1h-1zM31,6h1v1h-1zM34,6h1v1h-1zM36,6h1v1h-1zM38,6h1v1h-1zM39,6h1v1h-1zM40,6h1v1h-1zM42,6h1v1h-1zM2,7h1v1h-1zM8,7h1v1h-1zM12,7h1v1h-1zM14,7h1v1h-1zM16,7h1v1h-1zM17,7h1v1h-1zM18,7h1v1h-1zM21,7h1v1h-1zM23,7h1v1h-1zM28,7h1v1h-1zM29,7h1v1h-1zM30,7h1v1h-1zM33,7h1v1h-1zM34,7h1v1h-1zM36,7h1v1h-1zM42,7h1v1h-1zM2,8h1v1h-1zM3,8h1v1h-1zM4,8h1v1h-1zM5,8h1v1h-1zM6,8h1v1h-1zM7,8h1v1h-1zM8,8h1v1h-1zM10,8h1v1h-1zM12,8h1v1h-1zM14,8h1v1h-1zM16,8h1v1h-1zM18,8h1v1h-1zM20,8h1v1h-1zM22,8h1v1h-1zM24,8h1v1h-1zM26,8h1v1h-1zM28,8h1v1h-1zM30,8h1v1h-1zM32,8h1v1h-1zM34,8h1v1h-1zM36,8h1v1h-1zM37,8h1v1h-1zM38,8h1v1h-1zM39,8h1v1h-1zM40,8h1v1h-1zM41,8h1v1h-1zM42,8h1v1h-1zM10,9h1v1h-1zM14,9h1v1h-1zM15,9h1v1h-1zM19,9h1v1h-1zM21,9h1v1h-1zM24,9h1v1h-1zM28,9h1v1h-1zM29,9h1v1h-1zM31,9h1v1h-1zM32,9h1v1h-1zM33,9h1v1h-1zM34,9h1v1h-1zM2,10h1v1h-1zM4,10h1v1h-1zM5,10h1v1h-1zM7,10h1v1h-1zM8,10h1v1h-1zM9,10h1v1h-1zM11,10h1v1h-1zM12,10h1v1h-1zM14,10h1v1h-1zM15,10h1v1h-1zM16,10h1v1h-1zM17,10h1v1h-1zM18,10h1v1h-1zM22,10h1v1h-1zM25,10h1v1h-1zM27,10h1v1h-1zM28,10h1v1h-1zM29,10h1v1h-1zM32,10h1v1h-1zM36,10h1v1h-1zM39,10h1v1h-1zM41,10h1v1h-1zM42,10h1v1h-1zM3,11h1v1h-1zM4,11h1v1h-1zM10,11h1v1h-1zM12,11h1v1h-1zM14,11h1v1h-1zM16,11h1v1h-1zM17,11h1v1h-1zM20,11h1v1h-1zM21,11h1v1h-1zM29,11h1v1h-1zM30,11h1v1h-1zM31,11h1v1h-1zM34,11h1v1h-1zM35,11h1v1h-1zM36,11h1v1h-1zM37,11h1v1h-1zM38,11h1v1h-1zM41,11h1v1h-1zM42,11h1v1h-1zM5,12h1v1h-1zM8,12h1v1h-1zM13,12h1v1h-1zM14,12h1v1h-1zM15,12h1v1h-1zM16,12h1v1h-1zM19,12h1v1h-1zM22,12h1v1h-1zM23,12h1v1h-1zM24,12h1v1h-1zM25,12h1v1h-1zM26,12h1v1h-1zM31,12h1v1h-1zM32,12h1v1h-1zM35,12h1v1h-1zM37,12h1v1h-1zM3,13h1v1h-1zM6,13h1v1h-1zM10,13h1v1h-1zM11,13h1v1h-1zM13,13h1v1h-1zM14,13h1v1h-1zM17,13h1v1h-1zM18,13h1v1h-1zM20,13h1v1h-1zM22,13h1v1h-1zM24,13h1v1h-1zM29,13h1v1h-1zM30,13h1v1h-1zM32,13h1v1h-1zM38,13h1v1h-1zM41,13h1v1h-1zM4,14h1v1h-1zM5,14h1v1h-1zM8,14h1v1h-1zM9,14h1v1h-1zM12,14h1v1h-1zM16,14h1v1h-1zM21,14h1v1h-1zM22,14h1v1h-1zM23,14h1v1h-1zM24,14h1v1h-1zM25,14h1v1h-1zM26,14h1v1h-1zM28,14h1v1h-1zM30,14h1v1h-1zM32,14h1v1h-1zM37,14h1v1h-1zM2,15h1v1h-1zM6,15h1v1h-1zM7,15h1v1h-1zM9,15h1v1h-1zM10,15h1v1h-1zM13,15h1v1h-1zM15,15h1v1h-1zM16,15h1v1h-1zM17,15h1v1h-1zM18,15h1v1h-1zM19,15h1v1h-1zM22,15h1v1h-1zM23,15h1v1h-1zM25,15h1v1h-1zM26,15h1v1h-1zM29,15h1v1h-1zM34,15h1v1h-1zM35,15h1v1h-1zM37,15h1v1h-1zM4,16h1v1h-1zM5,16h1v1h-1zM6,16h1v1h-1zM7,16h1v1h-1zM8,16h1v1h-1zM10,16h1v1h-1zM12,16h1v1h-1zM17,16h1v1h-1zM18,16h1v1h-1zM20,16h1v1h-1zM21,16h1v1h-1zM22,16h1v1h-1zM27,16h1v1h-1zM28,16h1v1h-1zM30,16h1v1h-1zM32,16h1v1h-1zM33,16h1v1h-1zM35,16h1v1h-1zM39,16h1v1h-1zM40,16h1v1h-1zM41,16h1v1h-1zM42,16h1v1h-1zM3,17h1v1h-1zM5,17h1v1h-1zM6,17h1v1h-1zM7,17h1v1h-1zM13,17h1v1h-1zM15,17h1v1h-1zM18,17h1v1h-1zM20,17h1v1h-1zM25,17h1v1h-1zM26,17h1v1h-1zM29,17h1v1h-1zM30,17h1v1h-1zM34,17h1v1h-1zM35,17h1v1h-1zM36,17h1v1h-1zM40,17h1v1h-1zM41,17h1v1h-1zM42,17h1v1h-1zM4,18h1v1h-1zM8,18h1v1h-1zM9,18h1v1h-1zM12,18h1v1h-1zM13,18h1v1h-1zM16,18h1v1h-1zM17,18h1v1h-1zM18,18h1v1h-1zM19,18h1v1h-1zM24,18h1v1h-1zM25,18h1v1h-1zM31,18h1v1h-1zM33,18h1v1h-1zM34,18h1v1h-1zM37,18h1v1h-1zM40,18h1v1h-1zM42,18h1v1h-1zM2,19h1v1h-1zM3,19h1v1h-1zM6,19h1v1h-1zM11,19h1v1h-1zM14,19h1v1h-1zM15,19h1v1h-1zM17,19h1v1h-1zM22,19h1v1h-1zM23,19h1v1h-1zM24,19h1v1h-1zM26,19h1v1h-1zM27,19h1v1h-1zM31,19h1v1h-1zM34,19h1v1h-1zM35,19h1v1h-1zM37,19h1v1h-1zM41,19h1v1h-1zM2,20h1v1h-1zM3,20h1v1h-1zM8,20h1v1h-1zM9,20h1v1h-1zM12,20h1v1h-1zM13,20h1v1h-1zM14,20h1v1h-1zM15,20h1v1h-1zM16,20h1v1h-1zM17,20h1v1h-1zM20,20h1v1h-1zM24,20h1v1h-1zM26,20h1v1h-1zM27,20h1v1h-1zM28,20h1v1h-1zM29,20h1v1h-1zM31,20h1v1h-1zM32,20h1v1h-1zM35,20h1v1h-1zM36,20h1v1h-1zM37,20h1v1h-1zM38,20h1v1h-1zM39,20h1v1h-1zM40,20h1v1h-1zM41,20h1v1h-1zM2,21h1v1h-1zM9,21h1v1h-1zM10,21h1v1h-1zM11,21h1v1h-1zM12,21h1v1h-1zM15,21h1v1h-1zM16,21h1v1h-1zM17,21h1v1h-1zM19,21h1v1h-1zM20,21h1v1h-1zM22,21h1v1h-1zM23,21h1v1h-1zM28,21h1v1h-1zM30,21h1v1h-1zM31,21h1v1h-1zM35,21h1v1h-1zM36,21h1v1h-1zM37,21h1v1h-1zM38,21h1v1h-1zM39,21h1v1h-1zM40,21h1v1h-1zM42,21h1v1h-1zM2,22h1v1h-1zM3,22h1v1h-1zM5,22h1v1h-1zM6,22h1v1h-1zM8,22h1v1h-1zM9,22h1v1h-1zM11,22h1v1h-1zM12,22h1v1h-1zM15,22h1v1h-1zM17,22h1v1h-1zM21,22h1v1h-1zM25,22h1v1h-1zM27,22h1v1h-1zM28,22h1v1h-1zM32,22h1v1h-1zM34,22h1v1h-1zM36,22h1v1h-1zM37,22h1v1h-1zM38,22h1v1h-1zM40,22h1v1h-1zM41,22h1v1h-1zM3,23h1v1h-1zM5,23h1v1h-1zM9,23h1v1h-1zM15,23h1v1h-1zM17,23h1v1h-1zM19,23h1v1h-1zM22,23h1v1h-1zM26,23h1v1h-1zM32,23h1v1h-1zM33,23h1v1h-1zM36,23h1v1h-1zM37,23h1v1h-1zM38,23h1v1h-1zM41,23h1v1h-1zM2,24h1v1h-1zM3,24h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM7,24h1v1h-1zM8,24h1v1h-1zM11,24h1v1h-1zM17,24h1v1h-1zM19,24h1v1h-1zM20,24h1v1h-1zM23,24h1v1h-1zM24,24h1v1h-1zM25,24h1v1h-1zM26,24h1v1h-1zM35,24h1v1h-1zM36,24h1v1h-1zM40,24h1v1h-1zM41,24h1v1h-1zM3,25h1v1h-1zM4,25h1v1h-1zM7,25h1v1h-1zM9,25h1v1h-1zM10,25h1v1h-1zM11,25h1v1h-1zM17,25h1v1h-1zM18,25h1v1h-1zM20,25h1v1h-1zM24,25h1v1h-1zM26,25h1v1h-1zM27,25h1v1h-1zM28,25h1v1h-1zM29,25h1v1h-1zM35,25h1v1h-1zM37,25h1v1h-1zM41,25h1v1h-1zM3,26h1v1h-1zM5,26h1v1h-1zM7,26h1v1h-1zM8,26h1v1h-1zM12,26h1v1h-1zM13,26h1v1h-1zM16,26h1v1h-1zM20,26h1v1h-1zM21,26h1v1h-1zM25,26h1v1h-1zM26,26h1v1h-1zM28,26h1v1h-1zM33,26h1v1h-1zM35,26h1v1h-1zM41,26h1v1h-1zM10,27h1v1h-1zM11,27h1v1h-1zM12,27h1v1h-1zM14,27h1v1h-1zM21,27h1v1h-1zM22,27h1v1h-1zM23,27h1v1h-1zM24,27h1v1h-1zM25,27h1v1h-1zM26,27h1v1h-1zM27,27h1v1h-1zM36,27h1v1h-1zM39,27h1v1h-1zM40,27h1v1h-1zM41,27h1v1h-1zM42,27h1v1h-1zM6,28h1v1h-1zM8,28h1v1h-1zM9,28h1v1h-1zM10,28h1v1h-1zM11,28h1v1h-1zM16,28h1v1h-1zM18,28h1v1h-1zM20,28h1v1h-1zM21,28h1v1h-1zM22,28h1v1h-1zM24,28h1v1h-1zM26,28h1v1h-1zM27,28h1v1h-1zM28,28h1v1h-1zM31,28h1v1h-1zM33,28h1v1h-1zM36,28h1v1h-1zM37,28h1v1h-1zM2,29h1v1h-1zM4,29h1v1h-1zM6,29h1v1h-1zM7,29h1v1h-1zM9,29h1v1h-1zM12,29h1v1h-1zM13,29h1v1h-1zM16,29h1v1h-1zM17,29h1v1h-1zM18,29h1v1h-1zM21,29h1v1h-1zM23,29h1v1h-1zM24,29h1v1h-1zM25,29h1v1h-1zM26,29h1v1h-1zM29,29h1v1h-1zM30,29h1v1h-1zM32,29h1v1h-1zM33,29h1v1h-1zM34,29h1v1h-1zM35,29h1v1h-1zM36,29h1v1h-1zM37,29h1v1h-1zM38,29h1v1h-1zM39,29h1v1h-1zM41,29h1v1h-1zM2,30h1v1h-1zM6,30h1v1h-1zM8,30h1v1h-1zM9,30h1v1h-1zM10,30h1v1h-1zM12,30h1v1h-1zM14,30h1v1h-1zM17,30h1v1h-1zM18,30h1v1h-1zM19,30h1v1h-1zM20,30h1v1h-1zM22,30h1v1h-1zM24,30h1v1h-1zM25,30h1v1h-1zM26,30h1v1h-1zM27,30h1v1h-1zM28,30h1v1h-1zM29,30h1v1h-1zM31,30h1v1h-1zM32,30h1v1h-1zM34,30h1v1h-1zM35,30h1v1h-1zM38,30h1v1h-1zM40,30h1v1h-1zM4,31h1v1h-1zM5,31h1v1h-1zM9,31h1v1h-1zM10,31h1v1h-1zM12,31h1v1h-1zM13,31h1v1h-1zM14,31h1v1h-1zM15,31h1v1h-1zM16,31h1v1h-1zM17,31h1v1h-1zM21,31h1v1h-1zM22,31h1v1h-1zM23,31h1v1h-1zM24,31h1v1h-1zM26,31h1v1h-1zM28,31h1v1h-1zM31,31h1v1h-1zM34,31h1v1h-1zM41,31h1v1h-1zM2,32h1v1h-1zM5,32h1v1h-1zM7,32h1v1h-1zM8,32h1v1h-1zM10,32h1v1h-1zM11,32h1v1h-1zM16,32h1v1h-1zM21,32h1v1h-1zM23,32h1v1h-1zM28,32h1v1h-1zM29,32h1v1h-1zM34,32h1v1h-1zM35,32h1v1h-1zM36,32h1v1h-1zM38,32h1v1h-1zM41,32h1v1h-1zM4,33h1v1h-1zM7,33h1v1h-1zM10,33h1v1h-1zM12,33h1v1h-1zM14,33h1v1h-1zM17,33h1v1h-1zM18,33h1v1h-1zM19,33h1v1h-1zM20,33h1v1h-1zM21,33h1v1h-1zM23,33h1v1h-1zM25,33h1v1h-1zM28,33h1v1h-1zM29,33h1v1h-1zM30,33h1v1h-1zM31,33h1v1h-1zM32,33h1v1h-1zM36,33h1v1h-1zM38,33h1v1h-1zM39,33h1v1h-1zM41,33h1v1h-1zM3,34h1v1h-1zM6,34h1v1h-1zM8,34h1v1h-1zM9,34h1v1h-1zM10,34h1v1h-1zM16,34h1v1h-1zM17,34h1v1h-1zM18,34h1v1h-1zM19,34h1v1h-1zM23,34h1v1h-1zM26,34h1v1h-1zM27,34h1v1h-1zM28,34h1v1h-1zM29,34h1v1h-1zM33,34h1v1h-1zM34,34h1v1h-1zM35,34h1v1h-1zM36,34h1v1h-1zM37,34h1v1h-1zM38,34h1v1h-1zM41,34h1v1h-1zM42,34h1v1h-1zM10,35h1v1h-1zM13,35h1v1h-1zM17,35h1v1h-1zM19,35h1v1h-1zM20,35h1v1h-1zM21,35h1v1h-1zM23,35h1v1h-1zM25,35h1v1h-1zM26,35h1v1h-1zM29,35h1v1h-1zM30,35h1v1h-1zM32,35h1v1h-1zM34,35h1v1h-1zM38,35h1v1h-1zM40,35h1v1h-1zM41,35h1v1h-1zM2,36h1v1h-1zM3,36h1v1h-1zM4,36h1v1h-1zM5,36h1v1h-1zM6,36h1v1h-1zM7,36h1v1h-1zM8,36h1v1h-1zM10,36h1v1h-1zM13,36h1v1h-1zM14,36h1v1h-1zM15,36h1v1h-1zM16,36h1v1h-1zM18,36h1v1h-1zM20,36h1v1h-1zM22,36h1v1h-1zM25,36h1v1h-1zM26,36h1v1h-1zM27,36h1v1h-1zM28,36h1v1h-1zM31,36h1v1h-1zM32,36h1v1h-1zM34,36h1v1h-1zM36,36h1v1h-1zM38,36h1v1h-1zM39,36h1v1h-1zM40,36h1v1h-1zM41,36h1v1h-1zM2,37h1v1h-1zM8,37h1v1h-1zM10,37h1v1h-1zM11,37h1v1h-1zM13,37h1v1h-1zM16,37h1v1h-1zM17,37h1v1h-1zM19,37h1v1h-1zM21,37h1v1h-1zM22,37h1v1h-1zM26,37h1v1h-1zM27,37h1v1h-1zM28,37h1v1h-1zM29,37h1v1h-1zM30,37h1v1h-1zM32,37h1v1h-1zM34,37h1v1h-1zM38,37h1v1h-1zM2,38h1v1h-1zM4,38h1v1h-1zM5,38h1v1h-1zM6,38h1v1h-1zM8,38h1v1h-1zM11,38h1v1h-1zM12,38h1v1h-1zM17,38h1v1h-1zM21,38h1v1h-1zM23,38h1v1h-1zM26,38h1v1h-1zM28,38h1v1h-1zM34,38h1v1h-1zM35,38h1v1h-1zM36,38h1v1h-1zM37,38h1v1h-1zM38,38h1v1h-1zM39,38h1v1h-1zM40,38h1v1h-1zM41,38h1v1h-1zM42,38h1v1h-1zM2,39h1v1h-1zM4,39h1v1h-1zM5,39h1v1h-1zM6,39h1v1h-1zM8,39h1v1h-1zM10,39h1v1h-1zM11,39h1v1h-1zM12,39h1v1h-1zM14,39h1v1h-1zM17,39h1v1h-1zM18,39h1v1h-1zM23,39h1v1h-1zM24,39h1v1h-1zM25,39h1v1h-1zM28,39h1v1h-1zM30,39h1v1h-1zM31,39h1v1h-1zM34,39h1v1h-1zM35,39h1v1h-1zM37,39h1v1h-1zM39,39h1v1h-1zM40,39h1v1h-1zM42,39h1v1h-1zM2,40h1v1h-1zM4,40h1v1h-1zM5,40h1v1h-1zM6,40h1v1h-1zM8,40h1v1h-1zM10,40h1v1h-1zM13,40h1v1h-1zM14,40h1v1h-1zM15,40h1v1h-1zM18,40h1v1h-1zM21,40h1v1h-1zM22,40h1v1h-1zM23,40h1v1h-1zM24,40h1v1h-1zM30,40h1v1h-1zM32,40h1v1h-1zM33,40h1v1h-1zM35,40h1v1h-1zM36,40h1v1h-1zM37,40h1v1h-1zM39,40h1v1h-1zM41,40h1v1h-1zM42,40h1v1h-1zM2,41h1v1h-1zM8,41h1v1h-1zM11,41h1v1h-1zM18,41h1v1h-1zM21,41h1v1h-1zM23,41h1v1h-1zM26,41h1v1h-1zM30,41h1v1h-1zM32,41h1v1h-1zM33,41h1v1h-1zM34,41h1v1h-1zM35,41h1v1h-1zM36,41h1v1h-1zM37,41h1v1h-1zM39,41h1v1h-1zM41,41h1v1h-1zM2,42h1v1h-1zM3,42h1v1h-1zM4,42h1v1h-1zM5,42h1v1h-1zM6,42h1v1h-1zM7,42h1v1h-1zM8,42h1v1h-1zM10,42h1v1h-1zM11,42h1v1h-1zM12,42h1v1h-1zM14,42h1v1h-1zM20,42h1v1h-1zM23,42h1v1h-1zM26,42h1v1h-1zM31,42h1v1h-1zM34,42h1v1h-1zM35,42h1v1h-1zM36,42h1v1h-1zM41,42h1v1h-1z" fill="currentColor"/></svg></span><a class="wf-bcard__save" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3A%EC%9E%84%EA%B7%9C%ED%98%B8%3B%3B%3B%3B%0D%0AFN%3A%EC%9E%84%EA%B7%9C%ED%98%B8%0D%0ANICKNAME%3AGyuho%20Lim%0D%0ATITLE%3A%ED%85%8C%ED%81%AC%EB%8B%88%EC%BB%AC%20%EB%9D%BC%EC%9D%B4%ED%8C%85%20%C2%B7%20DevRel%0D%0AEND%3AVCARD" download="임규호.vcf">연락처 저장</a></div>
-        </div></div>
+      </div><div class="wf-bcard__tools"><button type="button" class="wf-bcard__png" data-name="배시우" title="이 명함을 PNG 그림으로 저장합니다"><svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>그림으로 저장</button></div></div>
+    </section>
+    </div>
+    <div class="wf" style="grid-template-columns:minmax(0, 1fr);grid-template-rows:1fr auto;gap:10px">
+    <section class="wf__region" id="다른-곳의-작업" data-enter="up" style="grid-column:1;grid-row:1;min-height:0px;border-radius:0px;border-width:0px;padding:min(28px, 6vw)">
+      <div class="wf-links wf-links--buttons" style="align-items:center">
+        <h2 class="wf-sec__title">다른 곳의 작업</h2>
+        <div class="wf-links__row">
+          <a class="wf-link" href="https://artstation.com/siwoo3d-example" target="_blank" rel="noreferrer noopener">ArtStation 작업 모음</a>
+          <a class="wf-link" href="https://sketchfab.com/siwoo3d-example" target="_blank" rel="noreferrer noopener">Sketchfab 3D 모델 보기</a>
+          <a class="wf-link" href="https://instagram.com/siwoo.3d.example" target="_blank" rel="noreferrer noopener">인스타그램 작업 과정</a>
         </div>
-        <label class="wf-bcard__flipbtn" for="bcflip-xw-2">뒤집기</label>
-        <button type="button" class="wf-bcard__png" data-name="임규호" title="이 명함을 PNG 그림으로 저장합니다" aria-label="명함을 PNG로 저장"><svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M12 3v10m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       </div>
     </section>
     </div>
-    <div class="wf wf--row" style="grid-template-columns:repeat(1, minmax(0, 1fr));gap:0px">
-      <div class="wf__region" id="contact" style="min-height:0px;border-radius:0px;border-width:0px;border-color:var(--wf-line, currentColor);padding:min(40px, 6vw);--wf-fs:14px;--wf-muted:#5b5567"><footer class="wf-bar wf-bar--foot" style="justify-content:space-between">
-        <span class="wf-foot__text">© 2026 임규호 · 글은 CC BY 4.0, 코드는 MIT입니다</span>
-        
-        
-        <a class="wf-foot__mail" href="mailto:gyuho@example.com">gyuho@example.com</a>
-      </footer></div>
-    </div>
-    <a class="wf-down" href="#%EA%B3%A8%EB%9D%BC-%EB%91%94-%EA%B8%80-%EC%97%AC%EC%84%AF" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+    <a class="wf-down" href="#contact" aria-label="아래로 이동"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
   </div>
   </section>
+  <div class="wf-page wf-footbar" style="font-family:'Geist', -apple-system, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo', 'Noto Sans KR', system-ui, sans-serif;background:#12071f;--wf-bg:#12071f;--wf-text:#f5f0ff;color:#f5f0ff;--wf-surface:#241239;--wf-line:#3c1f5c;--wf-muted:#ddc9f5;--wf-accent:#a855f7;--wf-on-accent:#ffffff;--wf-max:1200px;padding:10px 10px;--fx-dot-color:#c084fc;--fx-star-color:#ffffff;--fx-char-color:#f5f0ff;--enter-at:2%;gap:10px"><div class="wf"><div class="wf__region" data-enter="up" style="grid-column:1;grid-row:3;min-height:0px;border-radius:0px;border-width:0px;padding:min(24px, 6vw)"><footer class="wf-bar wf-bar--foot" style="justify-content:space-between">
+        <span class="wf-foot__text">© <span data-year="2026">2026</span><script>(function(e){e=document.currentScript.previousElementSibling;var y=new Date().getFullYear();if(y>+e.getAttribute('data-year'))e.textContent=y;})();</script> 배시우 3D. 포메로 만든 샘플 사이트입니다.</span>
+        <nav class="wf-nav" style="gap:18px">
+        <a href="#pg-0" class="wf-nav__item is-current">홈</a>
+        <a href="#pg-1" class="wf-nav__item">작업</a>
+        <a href="#pg-2" class="wf-nav__item">단가</a>
+        <a href="#pg-3" class="wf-nav__item">문의</a>
+      </nav>
+        
+        
+        
+      </footer></div></div></div>
+  <script>(function(){if(!('IntersectionObserver' in window))return;var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.remove('is-tfx-wait');io.unobserve(e.target);}});},{threshold:0.15});[].forEach.call(document.querySelectorAll('.wf-tfx'),function(el){if(el.getBoundingClientRect().top>innerHeight*0.85){el.classList.add('is-tfx-wait');io.observe(el);}});})();</script>
   <script type="module" src="./assets/init.js"></script>
   <script>(function(){var L=[].slice.call(document.querySelectorAll('.wf-headbar a[href^="#pg-"]'));if(!L.length)return;
   var S=[].slice.call(document.querySelectorAll('.wf-pg'));
@@ -238,95 +329,11 @@
   })();</script>
   <script>(function(){
 var EDITOR_ONLY=".wf-bcard__png, .wf-bcard__flipbtn, .wf-bcard__toggle";
-var cardToPngBlob=function cardToPngBlob(card, scale) {
-  const doc = card.ownerDocument;
-  const win = doc.defaultView;
-  const ratio = scale || 3;
-  const w = Math.round(card.getBoundingClientRect().width);
-  const h = Math.round(card.getBoundingClientRect().height);
-
-  /* 지금 문서에 걸린 규칙을 모읍니다. 다른 출처의 시트는 읽을 수 없어 건너뜁니다. */
-  let css = '';
-  for (const sheet of Array.from(doc.styleSheets)) {
-    try {
-      css += Array.from(sheet.cssRules).map((r) => r.cssText).join('\n') + '\n';
-    } catch (err) {
-      /* 읽을 수 없는 시트 — 우리 것이 아니므로 넘어갑니다. */
-    }
-  }
-
-  /* 앞뒤 판이면 두 면을 한 장에 나란히 담습니다. */
-  const twoFace = !!card.querySelector('.wf-bcard__face--back');
-  const gap = twoFace ? Math.round(w * 0.04) : 0;
-  const outW = twoFace ? w * 2 + gap : w;
-
-  const prep = (faceKind) => {
-    const clone = card.cloneNode(true);
-    clone.querySelectorAll(EDITOR_ONLY).forEach((n) => n.remove());
-    clone.querySelectorAll('.wf-edit').forEach((n) => n.classList.remove('wf-edit'));
-    clone.querySelectorAll('[contenteditable]').forEach((n) => n.removeAttribute('contenteditable'));
-    clone.querySelectorAll('[data-ph]').forEach((n) => n.removeAttribute('data-ph'));
-    if (faceKind) {
-      /*
-       * 한 면씩 따로 굽습니다. 뒷면은 Y축으로 돌려 둔 것이라 그대로 두면
-       * 좌우가 뒤집힌 채 앞면과 겹쳐 나옵니다 — 돌림을 풀고 반대쪽 면을
-       * 덜어내야 제 모습이 나옵니다.
-       */
-      const drop = faceKind === 'front' ? '.wf-bcard__face--back' : '.wf-bcard__face--front';
-      const gone = clone.querySelector(drop);
-      if (gone) gone.remove();
-      const flip = clone.querySelector('.wf-bcard__flip');
-      if (flip) flip.setAttribute('style', 'transform:none;position:absolute;inset:0');
-      const face = clone.querySelector('.wf-bcard__face');
-      if (face) face.setAttribute('style', 'transform:none;backface-visibility:visible');
-    }
-    return new win.XMLSerializer().serializeToString(clone);
-  };
-
-  const safeCss = css.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-  const box = (markup, x) =>
-    '<foreignObject x="' + x + '" y="0" width="' + w + '" height="' + h + '">' +
-    '<div xmlns="http://www.w3.org/1999/xhtml" style="width:' + w + 'px;height:' + h + 'px">' +
-    markup + '</div></foreignObject>';
-
-  const svg =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="' + outW * ratio + '" height="' + h * ratio + '" viewBox="0 0 ' + outW + ' ' + h + '">' +
-    '<style>' + safeCss + '</style>' +
-    (twoFace
-      ? box(prep('front'), 0) + box(prep('back'), w + gap)
-      : box(prep(null), 0)) +
-    '</svg>';
-
-  return new Promise((resolve, reject) => {
-    const img = new win.Image();
-    img.onload = () => {
-      const canvas = doc.createElement('canvas');
-      canvas.width = outW * ratio;
-      canvas.height = h * ratio;
-      const ctx = canvas.getContext('2d');
-      ctx.drawImage(img, 0, 0);
-      canvas.toBlob((blob) => (blob ? resolve(blob) : reject(new Error('PNG 변환 실패'))), 'image/png');
-    };
-    img.onerror = () => reject(new Error('명함을 그림으로 옮기지 못했습니다'));
-    img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
-  });
-};
-var downloadCardPng=function downloadCardPng(card, name) {
-  const doc = card.ownerDocument;
-  const win = doc.defaultView;
-  return cardToPngBlob(card, 3).then((blob) => {
-    const url = win.URL.createObjectURL(blob);
-    const a = doc.createElement('a');
-    a.href = url;
-    a.download = (name || '명함') + '.png';
-    doc.body.appendChild(a);
-    a.click();
-    a.remove();
-    /* 주소를 바로 놓아주면 내려받기가 시작되기 전에 끊길 수 있습니다. */
-    win.setTimeout(() => win.URL.revokeObjectURL(url), 10000);
-  });
-};
-document.addEventListener('click',function(e){var b=e.target.closest('.wf-bcard__png');if(!b)return;var card=b.closest('.wf-bcard');if(!card)return;downloadCardPng(card, b.getAttribute("data-name") || "명함");});
+var cardToPngBlob=function Jt(e,r){const n=e.ownerDocument,t=n.defaultView,a=r||3,o=Math.round(e.getBoundingClientRect().width),i=Math.round(e.getBoundingClientRect().height);let s="";for(const T of Array.from(n.styleSheets))try{s+=Array.from(T.cssRules).map(q=>q.cssText).join(`
+`)+`
+`}catch{}const f=!!e.querySelector(".wf-bcard__face--back"),g=f?Math.round(o*.04):0,w=f?o*2+g:o,b=T=>{const q=e.cloneNode(!0);if(q.querySelectorAll(Zt).forEach(O=>O.remove()),q.querySelectorAll(".wf-edit").forEach(O=>O.classList.remove("wf-edit")),q.querySelectorAll("[contenteditable]").forEach(O=>O.removeAttribute("contenteditable")),q.querySelectorAll("[data-ph]").forEach(O=>O.removeAttribute("data-ph")),T){const O=T==="front"?".wf-bcard__face--back":".wf-bcard__face--front",B=q.querySelector(O);B&&B.remove();const U=q.querySelector(".wf-bcard__flip");U&&U.setAttribute("style","transform:none;position:absolute;inset:0");const F=q.querySelector(".wf-bcard__face");F&&F.setAttribute("style","transform:none;backface-visibility:visible")}return new t.XMLSerializer().serializeToString(q)},h=s.replace(/&/g,"&amp;").replace(/</g,"&lt;"),j=(T,q)=>'<foreignObject x="'+q+'" y="0" width="'+o+'" height="'+i+'"><div xmlns="http://www.w3.org/1999/xhtml" style="width:'+o+"px;height:"+i+'px">'+T+"</div></foreignObject>",L='<svg xmlns="http://www.w3.org/2000/svg" width="'+w*a+'" height="'+i*a+'" viewBox="0 0 '+w+" "+i+'"><style>'+h+"</style>"+(f?j(b("front"),0)+j(b("back"),o+g):j(b(null),0))+"</svg>";return new Promise((T,q)=>{const O=new t.Image;O.onload=()=>{const B=n.createElement("canvas");B.width=w*a,B.height=i*a,B.getContext("2d").drawImage(O,0,0),B.toBlob(F=>F?T(F):q(new Error("PNG 변환 실패")),"image/png")},O.onerror=()=>q(new Error("명함을 그림으로 옮기지 못했습니다")),O.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(L)})};
+var downloadCardPng=function Fs(e,r){const n=e.ownerDocument,t=n.defaultView;return Jt(e,3).then(a=>{const o=t.URL.createObjectURL(a),i=n.createElement("a");i.href=o,i.download=(r||"명함")+".png",n.body.appendChild(i),i.click(),i.remove(),t.setTimeout(()=>t.URL.revokeObjectURL(o),1e4)})};
+document.addEventListener('click',function(e){var b=e.target.closest('.wf-bcard__png');if(!b)return;var box=b.closest('.wf-bcardbox');var card=box&&box.querySelector('.wf-bcard');if(!card)return;downloadCardPng(card, b.getAttribute("data-name") || "명함");});
 })();</script>
 </body>
 </html>

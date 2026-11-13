@@ -1,6 +1,6 @@
-# 임규호 — 쓰고, 고치고, 다시 씁니다
+# 배시우 | 3D 아티스트
 
-Portfolio Maker로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
+포메(Portfolio Maker)로 만든 정적 사이트입니다. **빌드 도구가 필요 없습니다.**
 
 ## 열기
 
@@ -16,6 +16,9 @@ python -m http.server 5500
 ## 페이지
 
 - `index.html` — 홈
+- `작업.html` — 작업
+- `단가.html` — 단가
+- `문의.html` — 문의
 
 ## 구조
 
@@ -23,7 +26,7 @@ python -m http.server 5500
 index.html 등        페이지마다 한 장
 assets/site.css      레이아웃 · 테마 · 파트 스타일
 assets/init.js       3D 효과 마운트
-effects/             효과 팩 (_core · scroll-reveal · tilt-card · smooth-scroll)
+effects/             효과 팩 (_core · model-showcase)
 ```
 
 ## 고치는 법
