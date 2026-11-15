@@ -8,7 +8,6 @@
  * 효과를 빼고 싶으면 아래 한 줄을 지우고 HTML의 data-fx도 지우면 됩니다.
  */
 
-import { mount as dots } from '../effects/dot-grid-wave/index.js';
 import { mount as parallax } from '../effects/parallax-layers/index.js';
 import { mount as model } from '../effects/model-showcase/index.js';
 
@@ -34,7 +33,34 @@ function readOpts(el, prefix) {
 }
 
 function boot() {
-  dots('[data-fx~="dots"]');
+  document.querySelectorAll('.wf-sld').forEach((sl) => {
+    const rs = [...sl.querySelectorAll('.wf-sld__r')];
+    if (rs.length < 2) return;
+    const loop = sl.dataset.loop !== '0';
+    const go = (n) => {
+      const i = rs.findIndex((r) => r.checked);
+      let k = i + n;
+      if (k >= rs.length) k = loop ? 0 : i;
+      if (k < 0) k = loop ? rs.length - 1 : i;
+      rs[Math.max(0, k)].checked = true;
+    };
+    /* 스와이프 — 손가락으로 40px 넘게 밀면 한 장 넘깁니다. */
+    let x0 = null;
+    sl.addEventListener('pointerdown', (e) => { if (e.pointerType === 'touch') x0 = e.clientX; });
+    sl.addEventListener('pointerup', (e) => {
+      if (x0 === null) return;
+      const dx = e.clientX - x0;
+      x0 = null;
+      if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
+    });
+    const ms = Number(sl.dataset.auto || 0);
+    if (!ms || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    let t = setInterval(() => go(1), ms);
+    if (sl.dataset.pause === '1') {
+      sl.addEventListener('pointerenter', () => { clearInterval(t); t = null; });
+      sl.addEventListener('pointerleave', () => { if (!t) t = setInterval(() => go(1), ms); });
+    }
+  });
   parallax('[data-fx~="parallax"]');
   model('.fx-model');
 }
